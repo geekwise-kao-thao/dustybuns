@@ -15,12 +15,7 @@ body{
 }
 
 header{
-    display: block;
-    background-image:url(http://i.imgur.com/zlwZhA7.jpg);
-    background-size: cover;
-    height: 64rem;
-    width: 100%;
-    background-repeat: no-repeat;
+    
 }
 
 #navbar{
@@ -36,8 +31,9 @@ header{
     margin:0;
     width: 70%;
     display:inline-block;
-    position: relative;
+    position: absolute;
     top:4rem;
+    left:20rem;
 }
 
 #navbar > ul > li{
@@ -57,7 +53,12 @@ header{
 }
 
 #label_section{
-    
+    display: block;
+    background-image:url(http://i.imgur.com/zlwZhA7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 64rem;
+    width: 100%;
 }
 
 #dustybuns_label{
@@ -84,6 +85,30 @@ header{
     padding:0;
     margin:0;
 }
+
+#welcome > p:nth-child(1){
+    font-family: "pacifico";
+    font-size:7.2rem;
+    color: #ffc300;
+    padding: 0;
+    margin:6rem 0 1rem 0;
+}
+
+#welcome > p:nth-child(2) img{
+    width:17rem;
+}
+
+#welcome > p:nth-child(3){
+    font-family: "muli";
+    font-size: 1.8rem;
+    width: 71%;
+    display: inline-block;
+}
+
+
+
+
+
 
 
 
