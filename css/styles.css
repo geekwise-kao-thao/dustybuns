@@ -105,9 +105,58 @@ header{
     display: inline-block;
 }
 
+#index_photos{
+    width:90%;
+    display: inline-block;
+}
 
+#topleft_div{
+    height: 53.7rem;
+    width:calc(100%/2);
+}
 
+#topleft_div > div:nth-child(1){
+    width:calc(100%/2);
+    display:inline-block;
+    float: left;
+}
 
+#topleft_div > div:nth-child(1) > img{
+    width:100%;
+}
+
+#topleft_div > div:nth-child(2){
+    width:calc(100%/2);
+    display:inline-block;
+    height: 100%;
+    background-color:#BCCF3D;
+    font-family: "muli";
+    font-size: 1.6rem;
+}
+
+#topleft_div > div:nth-child(2) > p{
+    margin:0;
+    line-height:2.5rem;
+}
+
+#topleft_div > div:nth-child(2) > p:nth-child(1) a > i{
+    padding-top:2rem;
+    font-size: 3rem;
+}
+
+#line{
+    border-bottom:1px solid #ffffff;
+    width:7rem;
+    display: inline-block;
+}
+
+.white_color{
+    color:#ffffff;
+}
+
+.grey_color{
+    color:grey;
+}
 
 
 
