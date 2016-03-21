@@ -1,0 +1,78 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    box-sizing:border-box;
+    
+}
+
+body{
+    height:100%;
+    width:100%;
+    text-align: center;
+    font-size:2rem;
+    font-family: serif;
+}
+
+header{
+    display: block;
+    background-image:url(http://i.imgur.com/zlwZhA7.jpg);
+    background-size: cover;
+    height: 64rem;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#navbar{
+    width:100%;
+    height:auto;
+    
+}
+
+#navbar > ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+}
+
+#navbar > ul > li > a{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+
+images:
+
+bun w pictures:  http://i.imgur.com/2Ry99yX.jpg
+
+jeep:  http://i.imgur.com/94ZsG77.jpg
+
+side view:  http://i.imgur.com/j2Yjg6a.jpg
+
+red leaf:  http://i.imgur.com/Y8oCeDm.jpg
+
+taco truck sketch  http://i.imgur.com/WXNnYJE.jpg
+
+hand peace sign:  http://i.imgur.com/qhhLyaj.jpg
+
+hamburger:  http://i.imgur.com/zlwZhA7.jpg
+
+taco truch front:  http://i.imgur.com/KoM7MHG.jpg
+
+fork n knife:  http://i.imgur.com/bUGnrIN.png
+
+
+*/

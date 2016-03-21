@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "hightgrove";
+    src: url("../fonts/highgrove.woff");
+}
+
+@font-face{
+    font-family: "muli";
+    src: url("../fonts/muli.woff");
+}
+
+@font-face{
+    font-family: "pacifico";
+    src: url("../fonts/pacifico.woff");
+}
+
+@font-face{
+    font-family: "roboto-bold";
+    src: url("../fonts/roboto-bold.woff");
+}
+
+@font-face{
+    font-family: "roboto-normal";
+    src: url("../fonts/roboto-normal.woff");
+}
+
+
