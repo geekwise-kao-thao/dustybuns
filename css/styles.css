@@ -65,7 +65,7 @@ header{
     width:50rem;
     display: inline-block;
     position: relative;
-    top:-43rem;
+    top:21rem;
 }
 
 #dustybuns_label p:nth-child(1){
@@ -101,18 +101,20 @@ header{
 #welcome > p:nth-child(3){
     font-family: "muli";
     font-size: 1.8rem;
-    width: 71%;
+    width: 95rem;
     display: inline-block;
 }
 
 #index_photos{
-    width:90%;
+    width:117rem;
     display: inline-block;
 }
 
 #topleft_div{
-    height: 53.7rem;
+    height: 53.6rem;
     width:calc(100%/2);
+    display: inline-block;
+    float:left;
 }
 
 #topleft_div > div:nth-child(1){
@@ -123,6 +125,7 @@ header{
 
 #topleft_div > div:nth-child(1) > img{
     width:100%;
+    height: 53.6rem;
 }
 
 #topleft_div > div:nth-child(2){
@@ -158,7 +161,33 @@ header{
     color:grey;
 }
 
+/* top right div for home page */
 
+#index_topright_div{
+    height: 53.6rem;
+    width:calc(100%/2);   
+    display: inline-block;
+    float:left;
+    background-color:#FFC300;
+}
+
+#index_topright_div > div{
+    width:calc(100%/2);
+    display: inline-block;
+    float:left;
+    font-family: "muli";
+    font-size: 1.6rem;
+}
+
+#index_topright_div > div > img{
+    width:100%;
+}
+
+#truch_sketch_image{
+    position: relative;
+    top:-.4rem;
+    height: 27.6rem;
+}
 
 
 
