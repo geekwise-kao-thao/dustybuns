@@ -15,12 +15,12 @@
 
 @font-face{
     font-family: "roboto-bold";
-    src: url("../fonts/roboto-bold.woff");
+    src: url("../fonts/roboto-bold.woff2");
 }
 
 @font-face{
     font-family: "roboto-normal";
-    src: url("../fonts/roboto-normal.woff");
+    src: url("../fonts/roboto-normal.woff2");
 }
 
 
