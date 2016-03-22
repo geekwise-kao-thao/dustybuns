@@ -310,6 +310,7 @@ header{
 .color_orange{
     color:#ffc300;
     font-size: 2.1rem;
+    font-weight: 500;
 }
 
 .fontawesome_size{
@@ -335,6 +336,9 @@ hr{
     width;100%;
     display: block;
     margin:0 auto;
+    background-color:grey;
+    background-blend-mode: multiply;
+    opacity: .9;
 }
 
 #index_footer > div{
@@ -347,7 +351,7 @@ hr{
     float:left;
     width:25%;
     position:relative;
-    top:10rem;
+    top:9rem;
 }
 
 #footer_div1 p:nth-child(1){
@@ -356,6 +360,7 @@ hr{
     color:#ffffff;
     padding: 0;
     margin: 0;
+    font-weight: 600;
 }
 
 #footer_div1 p:nth-child(2){
@@ -372,6 +377,7 @@ hr{
     float:right;
     position:relative;
     top:10rem;
+    left:-8rem;
 }
 
 #footer_div2 > p{
@@ -524,14 +530,18 @@ hr{
     padding: 0;
 }
 
-#googlemap{
+#googlemap_div{
     display: block;
     width:auto;
     margin:0 auto;
     height: auto;
-        
 }
 
+#googlemap_div > div{
+    width:110rem;
+    display: inline-block;
+    margin-bottom: 10rem;
+}
 
 /* end contactus page */
 
