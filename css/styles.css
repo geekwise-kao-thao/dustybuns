@@ -393,6 +393,87 @@ hr{
     color:#ffffff;
 }
 
+/* start aboutus page */
+
+#aboutus_topspace{
+    height: 10rem;
+    display: block;
+    
+}
+
+#aboutus_image_section > div:nth-child(2){
+    display: block;
+    background-image:url(http://i.imgur.com/XAMhlhA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 68vh;
+    width: 100%;
+}
+
+#aboutus_label{
+    width:50rem;
+    display: inline-block;
+    position: relative;
+    top:16rem;
+}
+
+#aboutus_label p{
+    color:#ffffff;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    font-size:7.2rem;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+#aboutus_main{
+    margin:0 auto;
+    display: block;
+}
+
+#aboutus_main > div{
+    width:117rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.8rem;
+    font-family: "muli";
+    color:#525252;
+    margin: 2rem 0 9rem 0;
+}
+
+#aboutus_leftdiv{
+    width:50%;
+    display: inline-block;
+    float:left;
+}
+
+#aboutus_leftdiv img{
+    width:100%;
+}
+
+#aboutus_paragraph{
+    line-height: 3.5rem;
+    padding-top:2rem
+}
+
+#aboutus_adventure{
+    font-weight: 500;
+    font-size: 3.3rem;
+    color:#BCCF3D;
+}
+
+#aboutus_rightdiv{
+    width:50%;
+    display: inline-block;
+}
+
+#aboutus_rightdiv p{
+    width:90%;
+}
+
+
+/* end aboutus page */
 
 /* start contactus page */
 
@@ -766,6 +847,11 @@ hr{
 }
 
 /* end cook page */
+
+/* no css for cashier page because it is almost identical to cook page */
+
+
+
 
 /*
 
