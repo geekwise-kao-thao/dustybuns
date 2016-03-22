@@ -439,7 +439,7 @@ hr{
     font-size: 1.6rem;
     font-family: "muli";
     color:#525252;
-    margin: 5rem 0 9rem 0;
+    margin: 5rem 0 4rem 0;
     white-space: normal;
 }
 
@@ -470,6 +470,48 @@ hr{
     
 }
 
+#aboutus_animation_section{
+    display: block;
+    width: auto;
+    height: 48rem;
+    background-color:#BCCF3D;
+    font-family: "muli";
+}
+
+#aboutus_awards{
+    font-size: 7.2rem;
+    font-family: "pacifico";
+    color: #ffffff;
+    width:100%;
+    margin: 9rem 0 1rem 0;
+}
+
+.aboutus_animation_images{
+    width: calc(100%/8);
+    display: inline-block;
+}
+
+.aboutus_animation_images > div{
+    background-color: #ffffff;
+    width:96%;
+    display: inline-block;
+}
+
+.animation_images{
+    width:100%;
+}
+
+.animation_a_tag{
+    color:#ffc300;
+    display: block;
+    font-size:2.4rem;
+    font-weight: 500;
+}
+
+.animation_p{
+    color:#525252;
+    font-size: 1.4rem;
+}
 
 /* end aboutus page */
 
