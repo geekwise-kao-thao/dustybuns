@@ -382,6 +382,127 @@ hr{
 }
 
 
+/* start contactus page */
+
+
+#contactus_header{
+    height:12rem;
+    margin:0 auto;
+    display: block;
+}
+
+#dustybuns_icon{
+    display: inline-block;
+    float: left;
+    font-family:"pacifico";
+    font-size:3.6rem;
+    font-weight: 700;
+    margin:2rem 0 0 3rem;
+    width:20rem;
+        
+}
+
+#contactus_navbar{
+    width:91rem;
+    height:auto;
+    margin:0 auto;
+    display: inline-block;
+    float: left;
+}
+
+#contactus_navbar > ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    width: 100%;
+    display:inline-block;
+    position: relative;
+    top:2rem;
+}
+
+#contactus_navbar > ul > li{
+    display: inline-block;
+    float:left;
+}
+
+#contactus_navbar > ul > li:nth-child(1){
+    width:10%;
+}
+
+#contactus_navbar > ul > li:nth-child(2){
+    width:25%;
+}
+
+#contactus_navbar > ul > li:nth-child(3){
+    width:17%;
+}
+
+#contactus_navbar > ul > li:nth-child(4){
+    width:15%;
+}
+
+#contactus_navbar > ul > li:nth-child(5){
+    width:18%;
+}
+
+#contactus_navbar > ul > li:nth-child(6){
+    width:15%;
+}
+
+#contactus_navbar > ul > li:nth-child(1) > a{
+    width:8rem;
+    height:6rem;
+    display: inline-block;
+}
+
+#contactus_navbar > ul > li:nth-child(2) > a{
+    width:17rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#contactus_navbar > ul > li:nth-child(3) > a{
+    width:11rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#contactus_navbar > ul > li:nth-child(4) > a{
+    width:10rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#contactus_navbar > ul > li:nth-child(5) > a{
+    width:12rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#contactus_navbar > ul > li:nth-child(6) > a{
+    width:10rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+
+#contactus_navbar > ul > li > a{
+    text-decoration: none;
+    color:#000000;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+}
+
+#contactus_navbar > ul > li > a:hover{
+    color:#BCCF3D;
+}
+
+/* end contactus page */
 
 /*
 
