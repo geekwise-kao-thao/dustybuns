@@ -119,7 +119,7 @@ header{
     display: inline-block;
     position: relative;
     top:-94rem;
-    
+    height: 18rem;
 }
 
 #topleft_div{
@@ -214,6 +214,100 @@ header{
 #plus{
     padding:2rem 0 2rem 0;
 }
+
+/* index page, section right above the footer */
+
+#index_contact_section{
+    height:auto;
+    width:100%;
+    font-family: muli;
+}
+
+#index_contact_section > div{
+    width:117rem;
+    display: inline-block;
+}
+
+#index_contact_section > div > div{
+    width:calc(100%/3);
+    display: inline-block;
+    float: left;
+}
+
+.color_orange{
+    color:#ffc300;
+    font-size: 2.1rem;
+}
+
+.fontawesome_size{
+    font-size: 1.8rem;
+    line-height: 1.75;
+    color:grey;
+}
+
+/* short grey line in the social media section at the bottom of home page */
+
+hr{
+    width:2.5rem;
+}
+
+/* home page footer */
+
+
+#index_footer{
+    background-image:url(http://i.imgur.com/Y8oCeDm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25rem;
+    width;100%;
+    display: block;
+    margin:0 auto;
+}
+
+#index_footer > div{
+    width:100%;
+    display: inline-block
+}
+
+#footer_div1{
+    display: inline-block;
+    float:left;
+    width:25%;
+    position:relative;
+    top:10rem;
+}
+
+#footer_div1 p:nth-child(1){
+    font-family: "pacifico";
+    font-size:3.6rem;
+    color:#ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+#footer_div1 p:nth-child(2){
+    font-family:"muli";
+    font-size:1.6rem;
+    color:#ffc300;
+    font-weight: 600;
+    padding: 0;
+    margin:0;
+}
+
+#footer_div2{
+    display:inline-block;
+    float:right;
+    position:relative;
+    top:10rem;
+}
+
+#footer_div2 > p{
+    font-family: "muli";
+    font-size: 2.6rem;
+    font-weight: 600;
+    color:#ffffff;
+}
+
 
 
 /*
