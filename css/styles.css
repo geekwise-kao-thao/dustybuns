@@ -161,7 +161,7 @@ header{
     margin:0 auto;
     display: none;
     position:relative;
-    top:2rem;
+    top:1.5rem;
     left:-3rem;
     font-family: "muli";
     z-index: 1;
@@ -241,7 +241,7 @@ header{
     margin:0 auto;
     display: none;
     position:relative;
-    top:2rem;
+    top:1.5rem;
     font-family: "muli";
     z-index: 1;
 }
@@ -686,7 +686,6 @@ hr{
     margin:0 auto;
     display: block;
     position:fixed;
-    overflow: hidden;
     background-color:#ffffff;
     width:100%;
     z-index: 1;
@@ -935,6 +934,154 @@ hr{
     padding-top:1.5rem;
 }
 
+/* copied and pasted menu and catering dropdowns to career page and making necessary adjustments to match the rest of the items on the navbar */
+
+#careers_label_menu{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:20rem;
+}
+
+#careers_label_menu:hover{
+    color:#BCCF3D;
+}
+
+#navbar > ul > li > a:hover{
+    background-color:#BCCF3D;
+}
+
+.index_span_position{
+    position:relative;
+    top:2rem;
+}
+
+#careers_menu_dropdown{
+    background-color:#ffffff;
+    width:18rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    left:-3rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#careers_menu_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#careers_menu_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+.menu_p a:hover{
+    background-color:#BCCF3D;
+}
+
+#careers_menu_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#careers_input_menu{
+    display: none;
+}
+
+#careers_input_menu:checked + #careers_menu_dropdown{
+    display: block;
+}
+
+/* dropdown for catering pages */
+
+#careers_label_menu2{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:12rem;
+}
+
+#careers_label_menu2:hover{
+    color:#BCCF3D;
+}
+
+#careers_catering_dropdown{
+    background-color:#ffffff;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#careers_catering_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#careers_catering_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+.menu_p a:hover{
+    background-color:#BCCF3D;
+}
+
+#careers_catering_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#careers_input_menu2{
+    display: none;
+}
+
+#careers_input_menu2:checked + #careers_catering_dropdown{
+    display: block;
+    
+}
 
 /* end careers page */
 
