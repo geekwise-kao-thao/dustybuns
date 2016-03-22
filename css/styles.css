@@ -393,15 +393,15 @@ hr{
     color:#ffffff;
 }
 
-/* start aboutus page */
+/* start about_us page */
 
-#aboutus_topspace{
+#about_us_topspace{
     height: 10rem;
     display: block;
     
 }
 
-#aboutus_image_section > div:nth-child(2){
+#about_us_image_section > div:nth-child(2){
     display: block;
     background-image:url(http://i.imgur.com/XAMhlhA.jpg);
     background-size: cover;
@@ -410,14 +410,14 @@ hr{
     width: 100%;
 }
 
-#aboutus_label{
+#about_us_label{
     width:50rem;
     display: inline-block;
     position: relative;
     top:16rem;
 }
 
-#aboutus_label p{
+#about_us_label p{
     color:#ffffff;
     font-family: "pacifico";
     text-transform: capitalize;
@@ -427,12 +427,12 @@ hr{
     font-weight: 500;
 }
 
-#aboutus_main{
+#about_us_main{
     margin:0 auto;
     display: block;
 }
 
-#aboutus_main > div{
+#about_us_main > div{
     width:117rem;
     display: inline-block;
     text-align: left;
@@ -443,25 +443,25 @@ hr{
     white-space: normal;
 }
 
-#aboutus_leftdiv{
+#about_us_leftdiv{
     width:100%;
     display: inline-block;
     float:left;
 }
 
-#aboutus_leftdiv img{
+#about_us_leftdiv img{
     width:50%;
     display: inline-block;
     float: left;
     margin-right:2rem;
 }
 
-#aboutus_paragraph{
+#about_us_paragraph{
     line-height: 3.5rem;
     padding-top:2rem
 }
 
-#aboutus_adventure{
+#about_us_adventure{
     font-weight: 500;
     font-size: 3.6rem;
     color:#BCCF3D;
@@ -470,7 +470,7 @@ hr{
     
 }
 
-#aboutus_animation_section{
+#about_us_animation_section{
     display: block;
     width: auto;
     height: 60rem;
@@ -479,7 +479,7 @@ hr{
     white-space: nowrap;
 }
 
-#aboutus_awards{
+#about_us_awards{
     font-size: 7.2rem;
     font-family: "pacifico";
     color: #ffffff;
@@ -487,13 +487,13 @@ hr{
     margin: 9rem 0 1rem 0;
 }
 
-.aboutus_animation_images{
+.about_us_animation_images{
     width: 40rem;
     display: inline-block;
     height: 45rem;
 }
 
-.aboutus_animation_images > div{
+.about_us_animation_images > div{
     background-color: #ffffff;
     width:94%;
     display: inline-block;
@@ -523,12 +523,12 @@ hr{
     margin-left: 1rem;
 }
 
-/* end aboutus page */
+/* end about_us page */
 
-/* start contactus page */
+/* start contact_us page */
 
 
-#contactus_header{
+#contact_us_header{
     height:10rem;
     margin:0 auto;
     display: block;
@@ -550,7 +550,7 @@ hr{
         
 }
 
-#contactus_navbar{
+#contact_us_navbar{
     width:91rem;
     height:auto;
     margin:0 auto;
@@ -558,7 +558,7 @@ hr{
     float: left;
 }
 
-#contactus_navbar > ul{
+#contact_us_navbar > ul{
     list-style: none;
     padding:0;
     margin:0;
@@ -568,73 +568,73 @@ hr{
     top:2rem;
 }
 
-#contactus_navbar > ul > li{
+#contact_us_navbar > ul > li{
     display: inline-block;
     float:left;
 }
 
-#contactus_navbar > ul > li:nth-child(1){
+#contact_us_navbar > ul > li:nth-child(1){
     width:10%;
 }
 
-#contactus_navbar > ul > li:nth-child(2){
+#contact_us_navbar > ul > li:nth-child(2){
     width:25%;
 }
 
-#contactus_navbar > ul > li:nth-child(3){
+#contact_us_navbar > ul > li:nth-child(3){
     width:17%;
 }
 
-#contactus_navbar > ul > li:nth-child(4){
+#contact_us_navbar > ul > li:nth-child(4){
     width:15%;
 }
 
-#contactus_navbar > ul > li:nth-child(5){
+#contact_us_navbar > ul > li:nth-child(5){
     width:18%;
 }
 
-#contactus_navbar > ul > li:nth-child(6){
+#contact_us_navbar > ul > li:nth-child(6){
     width:15%;
 }
 
-#contactus_navbar > ul > li:nth-child(1) > a{
+#contact_us_navbar > ul > li:nth-child(1) > a{
     width:8rem;
     height:6rem;
     display: inline-block;
 }
 
-#contactus_navbar > ul > li:nth-child(2) > a{
+#contact_us_navbar > ul > li:nth-child(2) > a{
     width:17rem;
     height: 6rem;
     display: inline-block;
 }
 
-#contactus_navbar > ul > li:nth-child(3) > a{
+#contact_us_navbar > ul > li:nth-child(3) > a{
     width:11rem;
     height: 6rem;
     display: inline-block;
 }
 
-#contactus_navbar > ul > li:nth-child(4) > a{
+#contact_us_navbar > ul > li:nth-child(4) > a{
     width:10rem;
     height: 6rem;
     display: inline-block;
 }
 
-#contactus_navbar > ul > li:nth-child(5) > a{
+#contact_us_navbar > ul > li:nth-child(5) > a{
     width:12rem;
     height: 6rem;
     display: inline-block;
 }
 
-#contactus_navbar > ul > li:nth-child(6) > a{
+#contact_us_navbar > ul > li:nth-child(6) > a{
     width:10rem;
     height: 6rem;
     display: inline-block;
 }
 
 
-#contactus_navbar > ul > li > a{
+#contact_us_navbar > ul > li > a{
     text-decoration: none;
     color:#000000;
     text-transform: capitalize;
@@ -646,11 +646,11 @@ hr{
     transition:.5s;
 }
 
-#contactus_navbar > ul > li > a:hover{
+#contact_us_navbar > ul > li > a:hover{
     color:#BCCF3D;
 }
 
-#contactus_main{
+#contact_us_main{
     display: block;
     margin:0 auto;
     width: 100%;
@@ -658,7 +658,7 @@ hr{
     
 }
 
-#contactus_title{
+#contact_us_title{
     display: inline-block;
     width:auto;
     margin:11rem 0 0 0;
@@ -681,7 +681,7 @@ hr{
     margin-bottom: 10rem;
 }
 
-/* end contactus page */
+/* end contact_us page */
 
 /* start careers page */
 
