@@ -283,6 +283,7 @@ header{
 
 .sando_font{
     font-size: 3.6rem;
+    padding:1rem 0 1rem 0;
 }
 #plus{
     padding:2rem 0 2rem 0;
@@ -544,6 +545,44 @@ hr{
 }
 
 /* end contactus page */
+
+/* start careers page */
+
+#careers_image_section{
+    display: block;
+    background-image:url(http://i.imgur.com/CE4L2bl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#careers_label{
+    width:50rem;
+    display: inline-block;
+    position: relative;
+    top:21rem;
+}
+
+#careers_label p:nth-child(1){
+    color:#BCCF3D;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    font-size:7.2rem;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+#careers_label p:nth-child(2){
+    color:#ffffff;
+    font-family: "muli";
+    font-size:1.6rem;
+    padding:0;
+    margin:0;
+}
+
+/* end careers page */
 
 /*
 
