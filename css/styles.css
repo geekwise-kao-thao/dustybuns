@@ -436,20 +436,24 @@ hr{
     width:117rem;
     display: inline-block;
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: "muli";
     color:#525252;
-    margin: 2rem 0 9rem 0;
+    margin: 5rem 0 9rem 0;
+    white-space: normal;
 }
 
 #aboutus_leftdiv{
-    width:50%;
+    width:100%;
     display: inline-block;
     float:left;
 }
 
 #aboutus_leftdiv img{
-    width:100%;
+    width:50%;
+    display: inline-block;
+    float: left;
+    margin-right:2rem;
 }
 
 #aboutus_paragraph{
@@ -459,17 +463,11 @@ hr{
 
 #aboutus_adventure{
     font-weight: 500;
-    font-size: 3.3rem;
+    font-size: 3.6rem;
     color:#BCCF3D;
-}
-
-#aboutus_rightdiv{
-    width:50%;
-    display: inline-block;
-}
-
-#aboutus_rightdiv p{
-    width:90%;
+    width: auto;
+    display: inline;
+    
 }
 
 
