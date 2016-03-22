@@ -546,6 +546,38 @@ hr{
     color:#ffffff;
 }
 
+/* start menu/locations subpage sf bistro */
+
+#sf_bistro_image_section > div:nth-child(2){
+    display: block;
+    background-image:url(http://i.imgur.com/MhI9E4K.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 68vh;
+    width: 100%;
+}
+
+#sf_bistro_label{
+    width:70rem;
+    display: inline-block;
+    position: relative;
+    top:16rem;
+}
+
+#sf_bistro_label p:nth-child(1){
+    color:#ffffff;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    font-size:7.2rem;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+#sf_bistro_label p:nth-child(2){
+    
+}
+
 /* start about_us page */
 
 #about_us_topspace{
