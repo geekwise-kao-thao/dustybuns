@@ -197,8 +197,12 @@ header{
     height: 27.6rem;
 }
 
-
-
+.sando_font{
+    font-size: 3.6rem;
+}
+#plus{
+    padding:1rem 0 1rem 0;
+}
 
 
 /*
