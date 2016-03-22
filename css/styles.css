@@ -39,7 +39,30 @@ header{
 #navbar > ul > li{
     display: inline-block;
     float:left;
-    width:calc(100%/6)
+}
+
+#navbar > ul > li:nth-child(1){
+    width:10%;
+}
+
+#navbar > ul > li:nth-child(2){
+    width:25%;
+}
+
+#navbar > ul > li:nth-child(3){
+    width:17%;
+}
+
+#navbar > ul > li:nth-child(4){
+    width:15%;
+}
+
+#navbar > ul > li:nth-child(5){
+    width:18%;
+}
+
+#navbar > ul > li:nth-child(6){
+    width:15%;
 }
 
 #navbar > ul > li:nth-child(1) > a{
@@ -153,6 +176,7 @@ header{
     width: 95rem;
     display: inline-block;
     margin-bottom: 20rem;
+    line-height:3rem;
 }
 
 #board_image{
