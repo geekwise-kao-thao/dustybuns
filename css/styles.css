@@ -6,6 +6,11 @@ html, body{
     
 }
 
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
 body{
     height:100%;
     width:100%;
@@ -642,6 +647,7 @@ hr{
 
 .careers_line{
     border-bottom: 1px solid #BCCF3D;
+    padding-top:1.5rem;
 }
 
 
