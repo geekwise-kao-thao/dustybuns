@@ -164,6 +164,7 @@ header{
     top:2rem;
     left:-3rem;
     font-family: "muli";
+    z-index: 1;
 }
 
 #menu_dropdown p{
@@ -201,9 +202,38 @@ header{
 
 /* dropdown for catering pages */
 
+#label_menu2{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    text-shadow:1px 1px 5px #000000;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:12rem;
+}
+
+#label_menu2:hover{
+    background-color:#BCCF3D;
+}
+
+#navbar > ul > li > a:hover{
+    background-color:#BCCF3D;
+}
+
+.index_span_position{
+    position:relative;
+    top:2rem;
+}
+
 #catering_dropdown{
     background-color:#ffffff;
-    width:18rem;
+    width:28rem;
     height: 14rem;
     font-weight: 400;
     color:#525252;
@@ -212,8 +242,8 @@ header{
     display: none;
     position:relative;
     top:2rem;
-    left:-3rem;
     font-family: "muli";
+    z-index: 1;
 }
 
 #catering_dropdown p{
@@ -247,9 +277,8 @@ header{
 
 #input_menu2:checked + #catering_dropdown{
     display: block;
+    
 }
-
-
 
 
 #label_section{
@@ -266,6 +295,7 @@ header{
     display: inline-block;
     position: relative;
     top:21rem;
+    height: 20rem;
 }
 
 #dustybuns_label p:nth-child(1){
