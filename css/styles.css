@@ -120,7 +120,9 @@ header{
     transition:.5s;
 }
 
-.label_menu{
+/* dropdown for menu/location pages */
+
+#label_menu{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
@@ -131,6 +133,13 @@ header{
     letter-spacing: 1px;
     border-radius: 4px;
     transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:20rem;
+}
+
+#label_menu:hover{
+    background-color:#BCCF3D;
 }
 
 #navbar > ul > li > a:hover{
@@ -152,7 +161,7 @@ header{
     margin:0 auto;
     display: none;
     position:relative;
-    top:4rem;
+    top:2rem;
     left:-3rem;
     font-family: "muli";
 }
@@ -189,6 +198,59 @@ header{
 #input_menu:checked + #menu_dropdown{
     display: block;
 }
+
+/* dropdown for catering pages */
+
+#catering_dropdown{
+    background-color:#ffffff;
+    width:18rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:2rem;
+    left:-3rem;
+    font-family: "muli";
+}
+
+#catering_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#catering_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+.menu_p a:hover{
+    background-color:#BCCF3D;
+}
+
+#catering_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#input_menu2{
+    display: none;
+}
+
+#input_menu2:checked + #catering_dropdown{
+    display: block;
+}
+
+
+
 
 #label_section{
     display: block;
