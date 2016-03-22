@@ -57,7 +57,7 @@ header{
     background-image:url(http://i.imgur.com/zlwZhA7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 64rem;
+    height: 100vh;
     width: 100%;
 }
 
@@ -103,12 +103,23 @@ header{
     font-size: 1.8rem;
     width: 95rem;
     display: inline-block;
-    margin-bottom: 8rem;
+    margin-bottom: 20rem;
+}
+
+#board_image{
+    background-image:url(http://i.imgur.com/kp1S7UB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80rem;
+    
 }
 
 #index_photos{
     width:117rem;
     display: inline-block;
+    position: relative;
+    top:-94rem;
+    
 }
 
 #topleft_div{
@@ -201,7 +212,7 @@ header{
     font-size: 3.6rem;
 }
 #plus{
-    padding:1rem 0 1rem 0;
+    padding:2rem 0 2rem 0;
 }
 
 
