@@ -561,7 +561,7 @@ hr{
     width:50rem;
     display: inline-block;
     position: relative;
-    top:21rem;
+    top:16rem;
 }
 
 #careers_label p:nth-child(1){
@@ -581,6 +581,69 @@ hr{
     padding:0;
     margin:0;
 }
+
+#careers_main{
+    margin:0 auto;
+    display: block;
+}
+
+#careers_main > div{
+    width:117rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.8rem;
+    font-family: "muli";
+    color:#525252;
+    margin: 2rem 0 9rem 0;
+}
+
+#careers_leftdiv{
+    width:75%;
+    display: inline-block;
+    float:left;
+}
+
+#careers_leftdiv p{
+    width:97%;
+}
+
+#careers_paragraph{
+    line-height: 3.5rem;
+    padding-top:2rem
+}
+
+#careers_skills{
+    font-weight: 500;
+    font-size: 3.3rem;
+    color:#BCCF3D;
+}
+
+#careers_lastline{
+    padding-top:3rem;
+}
+
+#careers_rightdiv{
+    width:25%;
+    display: inline-block;
+}
+
+#careers_rightdiv p{
+    width:90%;
+    margin-left:1.5rem;
+}
+
+.careers_cook{
+    color:#BCCF3D;
+    font-size: 4.8rem;
+    font-weight: 500;
+    font-family: "pacifico";
+    margin:0;
+}
+
+.careers_line{
+    border-bottom: 1px solid #BCCF3D;
+}
+
 
 /* end careers page */
 
