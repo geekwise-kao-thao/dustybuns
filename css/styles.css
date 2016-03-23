@@ -1034,6 +1034,7 @@ hr{
 
 .menu_rows{
     height: 45rem;
+    margin-top:3rem;
     
 }
 
@@ -1082,12 +1083,21 @@ hr{
 }
 
 
-
-
-
-
-
 /* end sf bistro page */
+
+/* start fresno bistro page */
+
+#fresno_bistro_image_section > div:nth-child(2){
+    display: block;
+    background-image:url(http://i.imgur.com/GhcQrfg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 68vh;
+    width: 100%;
+}
+
+
+/* end fresno bistro page */
 
 /* start about_us page */
 
