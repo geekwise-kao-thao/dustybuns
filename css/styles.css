@@ -575,8 +575,437 @@ hr{
 }
 
 #sf_bistro_label p:nth-child(2){
+    font-size: 1.8rem;
+    font-family: "muli";
+    color:#ffffff;
+}
+
+#sf_bistro_main{
+    height: 100rem;
     
 }
+
+#sf_bistro_main > div{
+    height:auto;
+    width:90%;
+    margin:0 auto;
+    color: #525252;
+    font-family: "muli";
+}
+
+#sf_bistro_left_div{
+    width:20%;
+    display: inline-block;
+    float: left;
+    height: auto;
+    
+}
+
+#sf_bistro_left_div > div{
+    width:90%;
+    display: inline-block;
+}
+
+.sf_bistro_hours{
+    font-size: 4.8rem;
+    font-weight: 500;
+}
+
+.sf_bistro_line{
+    border:1px solid #bccf3d;
+}
+
+.opacity{
+    opacity:.8;
+}
+
+#sf_bistro_right_div{
+    width:75%;
+    display: inline-block;
+    height: auto;
+}
+
+#sf_bistro_right_div > div{
+    width:96%;
+    display: inline-block;
+    height: auto;
+}
+
+/* dropdowns for right div in main section:  all, sandwiches, etc.. */
+
+#sf_bistro_nav{
+    height: 27rem;
+}
+
+#sf_bistro_nav > ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    height: 100%;
+}
+
+#sf_bistro_nav > ul > li{
+    width:calc(100%/5);
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+/* ALL label */
+
+#all_label{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    transition:.2s;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color:#BCCF3D;
+}
+
+.sf_bistro_fontawesome{
+    font-size:4rem;
+    padding-top: 5rem
+}
+
+.short_line{
+    border-bottom: 1px solid white;
+    width:3.5rem;
+    display: inline-block;
+}
+
+#all_label:hover{
+    background-color:#ffffff;
+    color:black;
+}
+
+#all_label > span{
+    margin:0;
+    padding:0;
+}
+
+#all_dropdown{
+    background-color:#000000;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#all_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#all_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+#all_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#all_input{
+    display: none;
+}
+
+#all_input:checked + #all_dropdown{
+    display: block;
+    
+}
+
+/* sandwiches label */
+
+
+#sandwiches_label{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    transition:.2s;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color:#BCCF3D;
+}
+
+#sandwiches_label:hover{
+    background-color:#ffffff;
+    color:black;
+}
+
+#sandwiches_dropdown{
+    background-color:#000000;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#sandwiches_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#sandwiches_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+#sandwiches_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#sandwiches_input{
+    display: none;
+}
+
+#sandwiches_input:checked + #sandwiches_dropdown{
+    display: block;
+    
+}
+
+/* sides label */
+
+
+#sides_label{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    transition:.2s;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color:#BCCF3D;
+}
+
+#sides_label:hover{
+    background-color:#ffffff;
+    color:black;
+}
+
+#sides_dropdown{
+    background-color:#000000;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#sides_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#sides_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+#sides_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#sides_input{
+    display: none;
+}
+
+#sides_input:checked + #sides_dropdown{
+    display: block;
+    
+}
+
+/* dessert label */
+
+
+#dessert_label{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    transition:.2s;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color:#BCCF3D;
+}
+
+#dessert_label:hover{
+    background-color:#ffffff;
+    color:black;
+}
+
+#dessert_dropdown{
+    background-color:#000000;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#dessert_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#dessert_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+#dessert_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#dessert_input{
+    display: none;
+}
+
+#dessert_input:checked + #dessert_dropdown{
+    display: block;
+    
+}
+
+/* drinks label */
+
+#drinks_label{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    transition:.2s;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color:#BCCF3D;
+}
+
+#drinks_label:hover{
+    background-color:#ffffff;
+    color:black;
+}
+
+#drinks_dropdown{
+    background-color:#000000;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#drinks_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#drinks_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+#drinks_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#drinks_input{
+    display: none;
+}
+
+#drinks_input:checked + #drinks_dropdown{
+    display: block;
+    
+}
+
+/* end sf bistro page */
 
 /* start about_us page */
 
