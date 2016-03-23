@@ -581,7 +581,7 @@ hr{
 }
 
 #sf_bistro_main{
-    height: 100rem;
+    height: auto;
     
 }
 
@@ -1027,6 +1027,10 @@ hr{
 }
 
 /* menu items for sf bistro page */
+
+#menu_div{
+    height:auto;
+}
 
 .menu_rows{
     height: 45rem;
