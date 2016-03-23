@@ -1251,6 +1251,7 @@ hr{
     font-size: 1.8rem;
     font-weight: 300;
     color: #ffffff;
+    height: 150rem;
 }
 
 
@@ -1283,18 +1284,21 @@ hr{
     width:117rem;
     display: inline-block;
     margin-top:18rem;
+    height: auto;
 }
 
 #catering_left_div{
     width: 50%;
     display: inline-block;
     float: left;
+    height: auto;
 }
 
 #catering_left_div > div{
     width:96%;
     display: inline-block;
     text-align: left;
+    height: auto;
 }
 
 #couple_image{
@@ -1305,6 +1309,7 @@ hr{
     width: 50%;
     display: inline-block;
     float: left;
+    height: auto;
 }
 
 /* forms to catering subpages */
@@ -1312,7 +1317,7 @@ hr{
 #form_div{
     width:65%;
     display: inline-block;
-    
+    height: auto;
 }
 
 .catering_form1{
@@ -1385,6 +1390,51 @@ hr{
     background-color:transparent;
     width:90%;
     opacity: 1;
+}
+
+.catering_form3{
+    height:9rem;
+    width:38rem;
+    display: inline-block;
+    float: left;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.catering_form3 input{
+    border-radius:4px;
+    font-size: 1.6rem;
+    height:5.4rem;
+    color: #ffffff;
+    background-color:transparent;
+    width:95%;
+    opacity: 1;
+    margin-bottom: 2rem;
+}
+
+.catering_form3 span{
+    display: block;
+    line-height: 3rem;
+    margin: 1rem 0 1rem 0;
+}
+
+#input_message{
+    height: 25rem;
+}
+
+#input_message::-webkit-input-placeholder{
+    position:relative;
+    top:-10rem;
+}
+
+#catering_button{
+    background-color: #ffc300;
+    border-radius: 4px;
+    width:10.4rem;
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top:2rem;
 }
 
 /* end catering subpages*/
