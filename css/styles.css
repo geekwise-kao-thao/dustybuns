@@ -1236,6 +1236,159 @@ hr{
 
 /* end about_us page */
 
+/* start catering subpages */
+
+/* start catering "catering.html" subpage */
+
+#catering_image_section{
+    display: block;
+    background-image:url(http://i.imgur.com/LMFAyqB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100rem;
+    width: 100%;
+    font-family: "muli";
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+#catering_label{
+    width:80rem;
+    display: inline-block;
+    position: relative;
+    top:11rem;
+}
+
+#catering_label p:nth-child(1){
+    color:#FFC300;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    font-size:7.2rem;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+#catering_label p:nth-child(2){
+    color:#ffffff;
+    font-family: "muli";
+    font-size:1.6rem;
+    padding:0;
+    margin:0;
+}
+
+#blackboard_div{
+    width:117rem;
+    display: inline-block;
+    margin-top:18rem;
+}
+
+#catering_left_div{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+#catering_left_div > div{
+    width:96%;
+    display: inline-block;
+    text-align: left;
+}
+
+#couple_image{
+    width:100%;
+}
+
+#catering_right_div{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+/* forms to catering subpages */
+
+#form_div{
+    width:65%;
+    display: inline-block;
+    
+}
+
+.catering_form1{
+    height:17rem
+}
+
+.catering_form1 input{
+    border-radius:4px;
+    font-size: 1.6rem;
+    height:5.4rem;
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.input_design1{
+    border:1px solid #cccccc;
+    padding-left: 12px;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.input_color{
+    color: #ffffff;
+}
+
+.catering_input1{
+    width:96%;
+    margin:1rem 0 2rem 0;
+}
+
+.catering_input2{
+    width:40%;
+    float: left;
+    margin-bottom: 2rem;
+}
+
+.catering_input3{
+    width:16rem;
+    float:right;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.catering_form2{
+    height:9rem;
+    width:17rem;
+    display: inline-block;
+    float: left;
+    margin-bottom: 3rem;
+}
+
+.right_input{
+    float: right;
+    
+}
+
+.catering_form2 span{
+    width:100%;
+    display: inline-block;
+    text-align: left;
+    margin:1rem 0 1rem 0;
+    line-height: 3rem;
+}
+
+.catering_form2 input{
+    border-radius:4px;
+    font-size: 1.6rem;
+    height:5.4rem;
+    color: #ffffff;
+    background-color:transparent;
+    width:90%;
+    opacity: 1;
+}
+
+/* end catering subpages*/
+
 /* start contact_us page */
 
 
