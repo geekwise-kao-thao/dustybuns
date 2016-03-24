@@ -567,7 +567,92 @@ hr{
 
 @media only screen and (max-width:1200px){
     
+    #board_image{
+    background-image:url(http://i.imgur.com/kp1S7UB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55rem;
     
+}
+    
+    #index_photos{
+    width:90rem;
+    height: 80rem;
+    position: relative;
+    top:-67rem;
+}
+
+#topleft_div{
+    height: 40rem;
+    width:calc(100%/2);
+    display: inline-block;
+    float:left;
+}
+
+#topleft_div > div:nth-child(1){
+    width:calc(100%/2);
+    display:inline-block;
+    float: left;
+    height: 100%
+}
+
+#topleft_div > div:nth-child(1) > img{
+    width:100%;
+    height: 100%;
+}
+
+#topleft_div > div:nth-child(2){
+    width:calc(100%/2);
+    display:inline-block;
+    height: 100%;
+    background-color:#BCCF3D;
+    font-family: "muli";
+    font-size: 1.6rem;
+}
+
+#topleft_div > div:nth-child(2) > p{
+    width: 90%;
+    line-height: 2rem;
+    display: inline-block
+}
+
+.line{
+    width:5rem;
+}
+
+/* top right div for home page */
+
+#index_topright_div{
+    height: 40rem; 
+}
+
+#index_topright_div > div{
+    height: 50%;
+}
+
+#index_topright_div > div > p{
+    line-height:1.5rem;
+    width:90%;
+    display: inline-block;
+}
+
+#index_topright_div > div > img{
+    width:100%;
+    height: 20rem;
+}
+
+#truch_sketch_image{
+    position: relative;
+    top:0rem;
+}
+
+.sando_font{
+    font-size: 2.6rem;
+}
+#plus{
+    padding:1rem 0 1rem 0;
+}
+
     
     
 }
