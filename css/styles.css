@@ -340,7 +340,7 @@ header{
 #welcome > p:nth-child(3){
     font-family: "muli";
     font-size: 1.8rem;
-    width: 95rem;
+    width: 70%;
     display: inline-block;
     margin-bottom: 20rem;
     line-height:3rem;
@@ -563,7 +563,7 @@ hr{
 }
 
 
-/* kao index page media query max-width 1200px, changing div size to home page middle section */
+/* index page media query max-width 1200px, changing div size to home page middle section */
 
 @media only screen and (max-width:1200px){
     
@@ -577,7 +577,6 @@ hr{
     
     #index_photos{
     width:90rem;
-    height: 80rem;
     position: relative;
     top:-67rem;
 }
@@ -654,10 +653,27 @@ hr{
 }
 
     
+/* index page, section right above the footer */
+
+#index_contact_section > div{
+    width:80rem;
+    margin-bottom: 3rem;
+}
+
+.color_orange{
+    font-size: 2rem;
+}
+
+.fontawesome_size{
+    font-size: 1.5rem;
+}
+
+
+    
     
 }
 
-/* kao index page media query max-width 1150px */
+/* index page media query max-width 1150px */
 
 @media only screen and (max-width:1150px){
     
@@ -753,12 +769,52 @@ hr{
     width:100%;
 }
     
+
+#footer_div1{
+    width:22%;
+}
+
+#footer_div2{
+    left:-2.5rem;
+}
+
+#footer_div2 > p{
+    font-family: "muli";
+    font-size: 2.5rem;
+}
     
 }
 
 
-/* index page media query at 991px */
+/*  kao index page media query at 991px */
 
+@media only screen and (max-width:991px){
+    
+    
+    
+#index_contact_section > div{
+    width:35rem;
+}
+
+#index_contact_section > div > div{
+    width:100%;
+}
+    
+    
+#footer_div1{
+    width:20%;
+}
+
+#footer_div2 > p{
+    font-family: "muli";
+    font-size: 2.2rem;
+}
+    
+    
+}
+
+
+/* index page media query max-width at 910px, background image doesn't shrink but is fixed and center of image stays centered  */
 
 /* end of index page */
 
