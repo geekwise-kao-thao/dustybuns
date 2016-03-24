@@ -1190,12 +1190,52 @@ hr{
     white-space: nowrap;
 }
 
+#button_container{
+    width:100%;
+}
+
 #about_us_awards{
     font-size: 7.2rem;
     font-family: "pacifico";
     color: #ffffff;
     width:100%;
     margin: 9rem 0 1rem 0;
+}
+
+#left_button{
+    width:6rem;
+    height: 12rem;
+    border-radius:0 10rem 10rem 0;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top:158.1rem;
+}
+
+#left_button > span{
+    position: relative;
+    top:3.5rem;
+    color:#ffffff;
+    font-size: 4rem;
+    opacity: .5;
+}
+
+#right_button{
+    width:6rem;
+    height: 12rem;
+    border-radius:10rem 0 0 10rem;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top:158.1rem;
+    display: inline-block;
+    float:left;
+}
+
+#right_button > span{
+    position: relative;
+    top:3.5rem;
+    color:#ffffff;
+    font-size: 4rem;
+    opacity: .5;
 }
 
 #slider_background{
