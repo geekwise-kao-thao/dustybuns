@@ -19,6 +19,13 @@ body{
     font-family: serif;
 }
 
+#index_input_navbar{
+        display: none;
+    }
+#index_hamburger{
+    display: none;
+}
+
 header{
     
 }
@@ -545,6 +552,102 @@ hr{
     font-weight: 600;
     color:#ffffff;
 }
+
+
+/* kao index page media query max-width 1150px */
+
+@media only screen and (max-width:1150px){
+    
+
+ /* adjusted navbar to become a dropdown */
+    
+    #index_header{
+        height: auto;
+    }
+    
+#navbar{
+    height:auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #BCCF3D;
+}
+/*background-color: #BCCF3D;*/
+    
+#navbar > ul{
+    width: 100%;
+    left:0rem;
+    
+    z-index: ;
+    height:45rem;
+    display: inline-block;
+    margin:0 auto;
+    position: relative;
+    top: 0rem;
+    padding-top:5rem
+}
+
+#navbar > ul > li{
+    display: inline-bfloat;
+    float:none;
+}
+
+#navbar > ul > li:nth-child(1){
+    width:100%;
+    display: inline-block;
+    border-top:1px solid black;
+}
+
+#navbar > ul > li:nth-child(2){
+    width:100%;
+}
+
+#navbar > ul > li:nth-child(3){
+    width:100%;
+}
+
+#navbar > ul > li:nth-child(4){
+    width:100%;
+}
+
+#navbar > ul > li:nth-child(5){
+    width:100%;
+}
+
+#navbar > ul > li:nth-child(6){
+    width:100%;
+}
+    
+/* hamburger icon */
+    
+    
+    #index_hamburger{
+        color:;
+        font-size: 3rem;
+        width:5rem;
+        display: inline-block;
+        float: right;
+        margin:1rem 2rem 0 0;
+        background-color:transparent;
+    }
+    
+    
+    #index_hamburger:hover{
+        cursor: pointer;
+    }
+    
+    
+    #index_input_navbar:checked + ul{
+        display:block;
+    }
+
+    
+}
+
+
+
+/* end of index page */
 
 /* start menu/locations subpage sf bistro */
 
@@ -1184,14 +1287,17 @@ hr{
 #about_us_animation_section{
     display: block;
     width: auto;
-    height: 60rem;
+    height: 75rem;
     background-color:#BCCF3D;
     font-family: "muli";
-    white-space: nowrap;
+    overflow: hidden;
 }
 
 #button_container{
     width:100%;
+    white-space: nowrap;
+    width:100%;
+    height: 100%;
 }
 
 #about_us_awards{
@@ -1199,7 +1305,7 @@ hr{
     font-family: "pacifico";
     color: #ffffff;
     width:100%;
-    margin: 9rem 0 1rem 0;
+    margin: 5rem 0 2rem 0;
 }
 
 #left_button{
@@ -1208,7 +1314,12 @@ hr{
     border-radius:0 10rem 10rem 0;
     background-color: rgba(0,0,0,.3);
     position: absolute;
-    top:158.1rem;
+    top:155.1rem;
+}
+
+#left_button:hover{
+    background-color: #BCCF3D;
+    
 }
 
 #left_button > span{
@@ -1224,10 +1335,14 @@ hr{
     height: 12rem;
     border-radius:10rem 0 0 10rem;
     background-color: rgba(0,0,0,.3);
-    position: absolute;
-    top:158.1rem;
     display: inline-block;
-    float:left;
+    float:right;
+    margin-top:19rem;
+}
+
+#right_button:hover{
+    background-color: #BCCF3D;
+    
 }
 
 #right_button > span{
@@ -1236,6 +1351,15 @@ hr{
     color:#ffffff;
     font-size: 4rem;
     opacity: .5;
+}
+
+@keyframes slide{
+    0%{
+        transform:translate(0);
+    }
+    100%{
+        transform:translate(324rem);
+    }
 }
 
 #slider_background{
