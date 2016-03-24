@@ -17,6 +17,8 @@ body{
     text-align: center;
     font-size:2rem;
     font-family: serif;
+    margin:0 auto;
+    display: block;
 }
 
 #index_input_navbar{
@@ -553,6 +555,22 @@ hr{
     color:#ffffff;
 }
 
+#kao_label{
+    display: none;
+}
+#kao_input{
+    display: none;
+}
+
+
+/* kao index page media query max-width 1200px, changing div size to home page middle section */
+
+@media only screen and (max-width:1200px){
+    
+    
+    
+    
+}
 
 /* kao index page media query max-width 1150px */
 
@@ -561,31 +579,62 @@ hr{
 
  /* adjusted navbar to become a dropdown */
     
+    
+    
+    #kao_label{
+        font-size:4rem;
+        position:absolute;
+        z-index: 1;
+        color: black;
+        float: left;
+        display: inline-block;
+        width: 10%;
+        top:0;
+        right: 102rem;
+        color:white;
+        
+    }
+    
+    #kao_label > i{
+        position:relative;
+        top:0;
+        left:100rem
+    }
+    
+    #kao_input{
+        display: none;
+    }
+    
+    #kao_input:checked + #index_header{
+        display: block;
+    }
+    
+    
+    
     #index_header{
         height: auto;
+        display: none;
     }
     
 #navbar{
     height:auto;
     position: relative;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     text-align: center;
-    background-color: #BCCF3D;
 }
 /*background-color: #BCCF3D;*/
     
 #navbar > ul{
     width: 100%;
     left:0rem;
-    
-    z-index: ;
     height:45rem;
     display: inline-block;
     margin:0 auto;
     position: relative;
     top: 0rem;
-    padding-top:5rem
+    padding-top:5rem;
+    background-color: #BCCF3D
 }
 
 #navbar > ul > li{
@@ -619,32 +668,11 @@ hr{
     width:100%;
 }
     
-/* hamburger icon */
-    
-    
-    #index_hamburger{
-        color:;
-        font-size: 3rem;
-        width:5rem;
-        display: inline-block;
-        float: right;
-        margin:1rem 2rem 0 0;
-        background-color:transparent;
-    }
-    
-    
-    #index_hamburger:hover{
-        cursor: pointer;
-    }
-    
-    
-    #index_input_navbar:checked + ul{
-        display:block;
-    }
-
     
 }
 
+
+/* index page media query at 991px */
 
 
 /* end of index page */
