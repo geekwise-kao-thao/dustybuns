@@ -1780,15 +1780,20 @@ hr{
 
 @keyframes slide{
     0%{
-        transform:translate(0);
+        left:
+        0%;
     }
     100%{
-        transform:translate(324rem);
+        left:
+        4005;
     }
 }
 
 #slider_background{
     width:324rem;
+    animation-name: slide;
+    animation-direction: normal;
+    animation-duration: 10s;
 }
 
 .about_us_animation_images{
