@@ -1678,14 +1678,13 @@ hr{
     font-size: 1.6rem;
     font-family: "muli";
     color:#525252;
-    margin: 5rem 0 4rem 0;
-    white-space: normal;
+    margin: 0 auto;
+    padding:4rem 0 4rem 0;
 }
 
 #about_us_leftdiv{
     width:100%;
     display: inline-block;
-    float:left;
 }
 
 #about_us_leftdiv img{
@@ -1835,10 +1834,49 @@ hr{
 
 /* start media query for about us page */
 
+/* about us page media query at 1200px max width */
 
+@media only screen and (max-width:1200px){
+    
 
+#about_us_main > div{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+#about_us_leftdiv{
+    width:90%;
+    display: inline-block;
+}
+    
+    
+}
 
+/* kao about us page media query at 992px max width */
+
+@media only screen and (max-width:992px){
+    
+    
+#about_us_leftdiv img{
+    width:90%;
+    float: none;
+}
+
+    
+#about_us_adventure{
+    margin-top:2rem;
+    display: block;
+}
+    
+#about_us_paragraph{
+    padding-top:0rem;
+    text-align: left;
+}
+
+    
+    
+}
 
 
 /* end about_us page */
@@ -2326,8 +2364,18 @@ hr{
     margin-bottom: 10rem;
 }
 
+#contact_us_label{
+    display: none;
+}
 
-/* kao contact us page media query at 1157px max width */
+#contact_us_input{
+    display: none;
+}
+
+
+
+
+/* contact us page media query at 1157px max width */
 
 @media only screen and (max-width:1157px){
     
@@ -2377,10 +2425,6 @@ hr{
         width: 10%;
         top:0;
         right: 1rem;
-    }
-    
-    #contact_us_input{
-        display: none;
     }
     
     #contact_us_navbar{
