@@ -888,10 +888,14 @@ hr{
     width:100%;
 }
     
+    #board_image{
+        display: none;
+    }
+    
 #index_photos{
     width:100%;
     position: relative;
-    top:-62rem;
+    top:-9rem;
     height: auto;
 }
 
@@ -957,6 +961,9 @@ hr{
 #plus{
     padding:0;
 }
+    
+      
+    
     
     
 }
