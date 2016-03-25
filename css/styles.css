@@ -866,9 +866,9 @@ hr{
     
 }
 
-/*  kao index page media query at 920px */
+/*  kao index page media query at 767px */
 
-@media only screen and (max-width:920px){
+@media only screen and (max-width:767px){
     
     
 #dustybuns_label{
@@ -887,13 +887,9 @@ hr{
     font-size:3.1rem;
     width:100%;
 }
-
     
 #index_photos{
     width:100%;
-    
-    display: inline-block;
-    
     position: relative;
     top:-62rem;
     height: auto;
@@ -902,15 +898,10 @@ hr{
 #topleft_div{
     height: auto;
     width:100%;
-    
     background-color: #BCCF3D;
 }
 
 #topleft_div > div:nth-child(1){
-    width:calc(100%/2);
-    display:inline-block;
-    float: left;
-    
     height: auto;
 }
 
@@ -931,7 +922,7 @@ hr{
 }
 
 .fontawesome_icons{
-    padding-top:4rem;
+    padding-top:2rem;
 }
 
 /* top right div for home page */
@@ -961,10 +952,10 @@ hr{
 
 .sando_font{
     font-size: 3.6rem;
-    padding:1rem 0 1rem 0;
+    padding:.5rem 0 .5rem 0;
 }
 #plus{
-    padding:2rem 0 2rem 0;
+    padding:0;
 }
     
     
