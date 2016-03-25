@@ -791,7 +791,7 @@ hr{
     
     
 #index_contact_section > div{
-    width:35rem;
+    width:100%;
 }
 
 #index_contact_section > div > div{
@@ -1010,7 +1010,7 @@ hr{
 }
 
 
-/*  kao index page media query at 767px */
+/*  index page media query at 630px */
 
 @media only screen and (max-width:630px){
     
@@ -1024,6 +1024,51 @@ hr{
     
     
 }
+
+/*  kao index page media query at 478px */
+
+@media only screen and (max-width:478px){
+    
+
+#topleft_div > div:nth-child(2) > p{
+    line-height:1.7rem;
+    font-size: .9rem;
+}
+
+.fontawesome_icons{
+    padding-top:1rem;
+    font-size: 1.8rem;
+}
+
+/* top right div for home page */
+
+
+    #index_topright_div > div{
+    height:20rem;
+}
+    
+    #index_topright_div > div > img{
+    width:100%;
+    height: 100%;
+}
+    
+#index_topright_div > div > p{
+    line-height:1.7rem;
+    font-size: .9rem;
+}
+
+.sando_font{
+    font-size: 2.6rem;
+    padding:0;
+}
+#plus{
+    padding:0;
+}
+
+    
+    
+}
+
 
 /* index page media query max-width at 910px, background image doesn't shrink but is fixed and center of image stays centered  */
 
