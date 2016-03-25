@@ -498,6 +498,7 @@ hr{
 #index_footer{
     background-image:url(http://i.imgur.com/Y8oCeDm.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 25rem;
     width;100%;
     display: block;
@@ -1025,7 +1026,7 @@ hr{
     
 }
 
-/*  kao index page media query at 478px */
+/*  index page media query at 478px */
 
 @media only screen and (max-width:478px){
     
@@ -1637,7 +1638,6 @@ hr{
 #about_us_topspace{
     height: 10rem;
     display: block;
-    
 }
 
 #about_us_image_section > div:nth-child(2){
@@ -1831,6 +1831,15 @@ hr{
     width:20%;
     margin-left: 3rem;
 }
+
+
+/* start media query for about us page */
+
+
+
+
+
+
 
 /* end about_us page */
 
@@ -2315,6 +2324,75 @@ hr{
     width:110rem;
     display: inline-block;
     margin-bottom: 10rem;
+}
+
+
+/* kao contact us page media query at 1157px max width */
+
+@media only screen and (max-width:1157px){
+    
+    
+#contact_us_navbar{
+    width:100%;
+    background-color:white;
+}
+    
+    #contact_us_navbar > ul > li{
+        background-color:white;
+    }
+
+#contact_us_navbar > ul > li:nth-child(1){
+    width:100%;
+}
+
+#contact_us_navbar > ul > li:nth-child(2){
+    width:100%;
+}
+
+#contact_us_navbar > ul > li:nth-child(3){
+    width:100%;
+}
+
+#contact_us_navbar > ul > li:nth-child(4){
+    width:100%;
+}
+
+#contact_us_navbar > ul > li:nth-child(5){
+    width:100%;
+}
+
+#contact_us_navbar > ul > li:nth-child(6){
+    width:100%;
+}
+
+  /* hamburger bars */  
+    
+    #contact_us_label{
+        font-size:4rem;
+        position:absolute;
+        z-index: 1;
+        color: black;
+        float: left;
+        display: inline-block;
+        width: 10%;
+        top:0;
+        right: 1rem;
+    }
+    
+    #contact_us_input{
+        display: none;
+    }
+    
+    #contact_us_navbar{
+        display: none;
+    }
+    
+    #contact_us_input:checked + #contact_us_navbar{
+        display: block;
+    }
+    
+    
+    
 }
 
 /* end contact_us page */
