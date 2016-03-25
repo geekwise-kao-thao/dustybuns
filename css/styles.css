@@ -509,7 +509,7 @@ hr{
 
 #index_footer > div{
     width:100%;
-    display: inline-block
+    display: inline-block;
 }
 
 #footer_div1{
@@ -983,6 +983,29 @@ hr{
     display: inline-block;
     height: 25rem;
 }
+    
+    
+#footer_div1{
+    width:17rem;
+}
+    
+    #footer_div1 > p:nth-child(1){
+        font-size: 2.5rem;
+    }
+    
+    #footer_div1 > p:nth-child(2){
+        font-size: 1.2rem;
+    }
+
+    #footer_div2{
+        width:42rem;
+    }
+    
+#footer_div2 > p{
+    font-size: 1.5rem;
+}
+    
+    
     
     
     
