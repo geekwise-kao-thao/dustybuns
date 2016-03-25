@@ -821,7 +821,7 @@ hr{
     
 }
 
-/*  kao index page media query at 920px */
+/*  index page media query at 920px */
 
 @media only screen and (max-width:920px){
     
@@ -866,6 +866,109 @@ hr{
     
 }
 
+/*  kao index page media query at 920px */
+
+@media only screen and (max-width:920px){
+    
+    
+#dustybuns_label{
+    width:90%;
+    position: relative;
+    top:20rem;
+    height: 18rem;
+}
+
+#dustybuns_label p:nth-child(1){
+    font-size:6.2rem;
+    width:100%;
+}
+
+#dustybuns_label p:nth-child(2){
+    font-size:3.1rem;
+    width:100%;
+}
+
+    
+#index_photos{
+    width:100%;
+    
+    display: inline-block;
+    
+    position: relative;
+    top:-62rem;
+    height: auto;
+}
+
+#topleft_div{
+    height: auto;
+    width:100%;
+    
+    background-color: #BCCF3D;
+}
+
+#topleft_div > div:nth-child(1){
+    width:calc(100%/2);
+    display:inline-block;
+    float: left;
+    
+    height: auto;
+}
+
+#topleft_div > div:nth-child(1) > img{
+    width:100%;
+    height: auto;
+}
+
+#topleft_div > div:nth-child(2){
+    width:calc(100%/2);
+    display:inline-block;
+    
+    height: auto;
+}
+
+#topleft_div > div:nth-child(2) > p{
+    line-height:2.7rem;
+}
+
+.fontawesome_icons{
+    padding-top:4rem;
+}
+
+/* top right div for home page */
+
+#index_topright_div{
+    height: auto;
+    width:100%;   
+}
+
+#index_topright_div > div{
+    height:auto;
+}
+
+#index_topright_div > div > p{
+    line-height:2.7rem;
+}
+
+#index_topright_div > div > img{
+    width:100%;
+    height: 100%;
+}
+
+#truch_sketch_image{
+    position: relative;
+    top:0rem;
+}
+
+.sando_font{
+    font-size: 3.6rem;
+    padding:1rem 0 1rem 0;
+}
+#plus{
+    padding:2rem 0 2rem 0;
+}
+    
+    
+}
 
 /* index page media query max-width at 910px, background image doesn't shrink but is fixed and center of image stays centered  */
 
