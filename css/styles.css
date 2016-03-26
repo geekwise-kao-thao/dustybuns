@@ -2102,6 +2102,112 @@ hr{
     margin-top:2rem;
 }
 
+
+/* start catering page media query at 1100px max width */
+
+@media only screen and (max-width:1100px){
+    
+    #blackboard_div{
+    width:90%;
+}
+    
+    #form_div{
+    width:85%;
+}
+    
+}
+
+/* kao start catering page media query at 992px max width */
+
+@media only screen and (max-width:992px) {
+        
+    #catering_image_section{
+        height: auto;
+    }
+    
+    #catering_label{
+    width:100%;
+}
+
+#catering_label p:nth-child(1){
+    font-size:5.2rem;
+}
+    
+    #catering_label p:nth-child(2){
+    font-size:1.4rem;
+}
+
+
+#blackboard_div{
+    width:100%;
+    margin-top:16rem;
+    height: auto;
+}
+
+#catering_left_div{
+    width: 100%;
+    height: auto;
+}
+
+#catering_left_div > div{
+    width:90%;
+}
+
+#couple_image{
+    width:100%;
+}
+
+#catering_right_div{
+    width: 100%;
+    height: auto;
+}
+
+/* forms to catering subpages */
+
+#form_div{
+    width:90%;
+    height: auto;
+}
+
+.catering_form1 input{
+    width:100%;
+}
+
+.catering_input1{
+    width:96%;
+    margin:1rem 0 2rem 0;
+}
+
+.catering_input3{
+    width:100%;
+    position:relative;
+    top:0rem;
+    left:1.5rem;
+    
+}
+
+.catering_form2{
+    width:100%;
+}
+
+.catering_form2 input{
+    width:100%;
+}
+
+.catering_form3{
+    height:auto;
+    width:100%;
+}
+
+.catering_form3 input{
+    width:100%;
+}
+    
+    
+}
+
+
+
 /* end "catering.html" page */
 
 
@@ -2899,7 +3005,7 @@ hr{
     
 }
 
-/* kao cook page media query at 906px max width */
+/* cook page media query at 906px max width */
 
 @media only screen and (max-width:906px) {
     
