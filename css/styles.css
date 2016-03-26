@@ -2747,7 +2747,7 @@ hr{
     
 }
 
-/* kao careers page media query at 906px max width */
+/* careers page media query at 906px max width */
 
 @media only screen and (max-width:906px) {
     
@@ -2884,6 +2884,35 @@ hr{
 .cook_line{
     border-bottom: 1px solid #BCCF3D;
     padding-top:1.5rem;
+}
+
+@media only screen and (max-width:1200px){
+    
+    
+    #cook_main > div{
+    width:90%;
+}    
+#cook_rightdiv{
+    width:20rem;
+    float:right;
+}
+    
+}
+
+/* kao cook page media query at 906px max width */
+
+@media only screen and (max-width:906px) {
+    
+    
+    #cook_leftdiv{
+        width:100%;
+    }
+    
+    #cook_rightdiv{
+    width:100%;
+    float:right;
+}
+    
 }
 
 /* end cook page */
