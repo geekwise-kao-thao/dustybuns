@@ -2117,7 +2117,7 @@ hr{
     
 }
 
-/* kao start catering page media query at 992px max width */
+/* start catering page media query at 992px max width */
 
 @media only screen and (max-width:992px) {
         
@@ -2221,7 +2221,8 @@ hr{
     font-size: 1.8rem;
     font-weight: 300;
     color: black;
-    height: 260rem;
+    height: auto;
+    padding-bottom: 6rem;
 }
 
 #lunchbox_fields{
@@ -2231,7 +2232,7 @@ hr{
 
 
 #fresno_lunchbox_label{
-    width:100rem;
+    width:100%;
     display: inline-block;
     position: relative;
     top:11rem;
@@ -2258,7 +2259,6 @@ hr{
     width:100%;
     display: inline-block;
     height: auto;
-    
     text-align: left;
 }
 
@@ -2305,15 +2305,19 @@ hr{
 
 .fresno_lunchbox_input2{
     height: 4rem;
-    width:25rem;
+    width:20rem;
     margin-left:2rem;   
 }
 
 #fresno_lunchbox_button{
     background-color: #ffc300;
     height: 5rem;
-    width: 10rem;
     color:#ffffff;
+    border-radius: 4px;
+    width:10.4rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top:2rem;
 }
 
 .first_asterisk{
@@ -2327,6 +2331,24 @@ hr{
 
 #total{
     background-color:lightgray;
+}
+
+/* kao start fresno lunch box page media query at 768px max width */
+
+@media only screen and (max-width:768px){
+    
+    #fresno_lunchbox_label p:nth-child(1){
+        font-size: 5.2rem;
+    } 
+    
+    .fresno_lunchbox_input2{
+    width:100%;
+    margin-left:0rem;   
+}
+    .fresno_lunchbox_h1{
+    font-size: 3.5rem;
+}
+    
 }
 
 
