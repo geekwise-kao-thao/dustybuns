@@ -1116,7 +1116,7 @@ hr{
 
 #sf_bistro_main > div{
     height:auto;
-    width:90%;
+    width:117rem;
     margin:0 auto;
     color: #525252;
     font-family: "muli";
@@ -1133,6 +1133,10 @@ hr{
 #sf_bistro_left_div > div{
     width:90%;
     display: inline-block;
+}
+
+#sf_bistro_map{
+    overflow: hidden;
 }
 
 .sf_bistro_hours{
@@ -1611,6 +1615,64 @@ hr{
     float:right;
 }
 
+/* start sf bistro page media query at 1177px max width */
+
+@media only screen and (max-width:1177px){
+    
+    #sf_bistro_main > div{
+    width:96rem;
+}
+    
+}
+
+/* kao start sf bistro page media query at 992px max width */
+
+@media only screen and (max-width:992px){
+    
+    
+    #sf_bistro_label{
+        width: 100%;
+        position:relative;
+        top:5rem;
+    }
+    
+    #sf_bistro_label p:nth-child(1){
+        font-size:5.2rem;
+}
+    
+    #sf_bistro_main > div{
+    width:90%;
+        margin: 0 auto;
+}
+    
+    #sf_bistro_left_div{
+        width:100%
+    }
+    
+    #sf_bistro_map{
+        width: 24rem;
+        display: inline-block;
+    }
+    
+    #menu_div{
+    margin-bottom: 6rem;
+}
+
+.menu_rows{
+    height: auto;
+    margin-top:3rem;
+    
+}
+
+.menu_columns{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    height:100%;
+}
+    
+}
+
 
 /* end sf bistro page */
 
@@ -1627,7 +1689,7 @@ hr{
 
 #prices_may_vary{
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 
@@ -2333,7 +2395,7 @@ hr{
     background-color:lightgray;
 }
 
-/* kao start fresno lunch box page media query at 768px max width */
+/* start fresno lunch box page media query at 768px max width */
 
 @media only screen and (max-width:768px){
     
