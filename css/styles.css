@@ -2466,7 +2466,7 @@ hr{
 }
 
 
-/* kao contact us page media query at 767px max width */
+/* contact us page media query at 767px max width */
 
 @media only screen and (max-width:767px){
     
@@ -2729,6 +2729,49 @@ hr{
     display: block;
     
 }
+
+/* start media query for careers page */
+
+/* careers page media query at 1200px max width */
+
+@media only screen and (max-width:1200px){
+    
+    
+    #careers_main > div{
+    width:90%;
+}    
+#careers_rightdiv{
+    width:20rem;
+    float:right;
+}
+    
+}
+
+/* kao careers page media query at 906px max width */
+
+@media only screen and (max-width:906px) {
+    
+    
+    #careers_leftdiv{
+        width:100%;
+    }
+    
+    #careers_rightdiv{
+    width:100%;
+    float:right;
+}
+    
+    #careers_label{
+    width:100%;
+}
+
+#careers_label p:nth-child(1){
+    color:#BCCF3D;
+    font-size:5.2rem;
+}
+    
+}
+
 
 /* end careers page */
 
