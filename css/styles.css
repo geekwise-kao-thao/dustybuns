@@ -1696,7 +1696,8 @@ hr{
 
 #about_us_paragraph{
     line-height: 3.5rem;
-    padding-top:2rem
+    padding-top:2rem;
+    text-align: left;
 }
 
 #about_us_adventure{
@@ -1737,8 +1738,9 @@ hr{
     height: 12rem;
     border-radius:0 10rem 10rem 0;
     background-color: rgba(0,0,0,.3);
-    position: absolute;
-    top:155.1rem;
+    display: inline-block;
+    float: left;
+    margin-top:18.7rem
 }
 
 #left_button:hover{
@@ -1761,7 +1763,7 @@ hr{
     background-color: rgba(0,0,0,.3);
     display: inline-block;
     float:right;
-    margin-top:19rem;
+    margin-top:18.7rem;
 }
 
 #right_button:hover{
@@ -1853,7 +1855,7 @@ hr{
     
 }
 
-/* kao about us page media query at 992px max width */
+/* about us page media query at 992px max width */
 
 @media only screen and (max-width:992px){
     
@@ -1871,12 +1873,31 @@ hr{
     
 #about_us_paragraph{
     padding-top:0rem;
-    text-align: left;
 }
 
     
+}
+
+/* kao about us page media query at 767px max width */
+
+@media only screen and (max-width:767px){
+    
+    #about_us_awards{
+    font-size: 3.8rem;
+    margin: 3rem 0 2rem 0;
+}
+    
+    #about_us_label{
+    width:100%;
+}
+    
+    #about_us_label p{
+    font-size: 3.8rem;
+    width:100%;
+    }
     
 }
+    
 
 
 /* end about_us page */
