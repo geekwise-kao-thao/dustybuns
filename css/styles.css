@@ -1878,10 +1878,10 @@ hr{
     
 }
 
-/* kao about us page media query at 767px max width */
+/* about us page media query at 767px max width */
 
 @media only screen and (max-width:767px){
-    
+        
     #about_us_awards{
     font-size: 3.8rem;
     margin: 3rem 0 2rem 0;
@@ -1898,7 +1898,6 @@ hr{
     
 }
     
-
 
 /* end about_us page */
 
@@ -2456,7 +2455,26 @@ hr{
         display: block;
     }
     
+    /* adjusting map size */
     
+    #googlemap_div > div{
+    width:90%;
+    margin-bottom: 7rem;
+    overflow: hidden;
+}
+    
+}
+
+
+/* kao contact us page media query at 767px max width */
+
+@media only screen and (max-width:767px){
+    
+    
+    #contact_us_title{
+    margin:10rem 0 0 0;
+    font-size: 5.2rem;
+}
     
 }
 
