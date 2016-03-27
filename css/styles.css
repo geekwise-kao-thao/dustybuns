@@ -1783,7 +1783,6 @@ hr{
 #button_container{
     width:100%;
     white-space: nowrap;
-    width:100%;
     height: 100%;
 }
 
@@ -1802,13 +1801,33 @@ hr{
     background-color: rgba(0,0,0,.3);
     display: inline-block;
     float: left;
-    margin-top:18.7rem
+    margin-top:18.7rem;
+    position: relative;
+    z-index: 1;
 }
 
 #left_button:hover{
     background-color: #BCCF3D;
-    
 }
+
+
+@keyframes slider1{
+    0%{
+        left: -241rem;
+    }
+    100%{
+        left:0rem;
+    }
+}
+
+#left_button:hover + #slider_background{
+    background-color: #BCCF3D;
+    animation-name: slider1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 
 #left_button > span{
     position: relative;
@@ -1826,11 +1845,31 @@ hr{
     display: inline-block;
     float:right;
     margin-top:18.7rem;
+    position: relative;
+    z-index: 3;
 }
+
 
 #right_button:hover{
     background-color: #BCCF3D;
-    
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0rem;
+    }
+    100%{
+        left:-241rem;
+    }
+}
+
+#right_button:hover + #slider_background{
+    background-color: #BCCF3D;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 #right_button > span{
@@ -1841,13 +1880,12 @@ hr{
     opacity: .5;
 }
 
+
 #slider_background{
     width:324rem;
-    transition-duration: 10s;
-    transition-timing-function: ease-in
+    position:relative;
+    
 }
-
-
 
 .about_us_animation_images{
     width: 40rem;
