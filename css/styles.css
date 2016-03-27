@@ -1810,8 +1810,9 @@ hr{
     background-color: #BCCF3D;
 }
 
+/* this attempt did not work, will retry later
 
-@keyframes slider1{
+@keyframes slide{
     0%{
         left: -241rem;
     }
@@ -1820,13 +1821,14 @@ hr{
     }
 }
 
-#left_button:hover + #slider_background{
+#left_button:hover #slider_background{
     background-color: #BCCF3D;
-    animation-name: slider1;
+    animation-name: slide;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
 }
+*/
 
 
 #left_button > span{
@@ -1860,17 +1862,21 @@ hr{
         left: 0rem;
     }
     100%{
-        left:-241rem;
+        left:-233rem;
     }
 }
 
 #right_button:hover + #slider_background{
     background-color: #BCCF3D;
     animation-name: slider;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+   
 }
+
+
+
 
 #right_button > span{
     position: relative;
