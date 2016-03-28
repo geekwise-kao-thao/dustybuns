@@ -28,7 +28,7 @@ body{
 }
 
 header{
-    
+    height: auto;
 }
 
 #navbar{
@@ -47,6 +47,8 @@ header{
     position: absolute;
     top:4rem;
     left:20rem;
+    height: auto;
+    
 }
 
 #navbar > ul > li{
@@ -728,12 +730,12 @@ hr{
 #navbar > ul{
     width: 100%;
     left:0rem;
-    height:45rem;
+    height:auto;
     display: inline-block;
     margin:0 auto;
     position: relative;
     top: 0rem;
-    padding-top:5rem;
+    padding:5rem 0 2rem 0;
     background-color: #BCCF3D
 }
 
