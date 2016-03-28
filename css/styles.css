@@ -1662,7 +1662,7 @@ hr{
     
 }
 
-/* KAO start sf bistro page media query at 767px max width */
+/* start sf bistro page media query at 767px max width */
 
 @media only screen and (max-width:767px){
     
@@ -1694,31 +1694,28 @@ hr{
     
     #menu_topics_hidden p{
         margin:0;
+        font-size:1.2rem;
     }
     
     #menu_topics_hidden p:nth-child(1){
         display: inline-block;
-        font-size:1.2rem;
         width:20%;
         float: left;
     }
     
     #menu_topics_hidden p:nth-child(2){
         display: inline-block;
-        font-size:1.2rem;
         width:20%;
         float: left;
     }
     
     #menu_topics_hidden p:nth-child(3){
         display: inline-block;
-        font-size:1.2rem;
         width:20%;
         float: left;
     }
      #menu_topics_hidden p:nth-child(4), #menu_topics_hidden p:nth-child(5) {
         display: inline-block;
-        font-size:1.2rem;
         width:calc(100%/5);
         float: left;
     }
@@ -1726,6 +1723,26 @@ hr{
     #all_label p:nth-child(2), #sandwiches_label p:nth-child(2), #sides_label p:nth-child(2), #dessert_label p:nth-child(2), #drinks_label p:nth-child(2){
         display: none;
     }
+    
+}
+
+/* KAO start sf bistro page media query at 362px max width */
+
+@media only screen and (max-width:362px){
+    
+    #menu_topics_hidden p{
+        font-size:.9rem;
+    }
+    
+     .sf_bistro_fontawesome{
+    font-size:2.5rem;
+    padding-top: 1rem
+}
+    
+    #sf_bistro_nav{
+        height: 13rem;
+    }
+    
     
 }
 
