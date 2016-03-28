@@ -867,6 +867,17 @@ hr{
     
 }
 
+/* index page media query at max-width 909px*/
+
+@media only screen and (max-width:909px){
+    
+    #label_section{
+    background-position: 50% 50%;
+}
+    
+    
+}
+
 /*  index page media query at 767px */
 
 @media only screen and (max-width:767px){
@@ -880,12 +891,12 @@ hr{
 }
 
 #dustybuns_label p:nth-child(1){
-    font-size:6.2rem;
+    font-size:4.2rem;
     width:100%;
 }
 
 #dustybuns_label p:nth-child(2){
-    font-size:3.1rem;
+    font-size:2.1rem;
     width:100%;
 }
     
@@ -1726,7 +1737,7 @@ hr{
     
 }
 
-/* KAO start sf bistro page media query at 362px max width */
+/* start sf bistro page media query at 362px max width */
 
 @media only screen and (max-width:362px){
     
