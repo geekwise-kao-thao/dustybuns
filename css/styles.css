@@ -1168,6 +1168,11 @@ hr{
 
 /* dropdowns for right div in main section:  all, sandwiches, etc.. */
 
+
+#menu_topics_hidden p{
+    display: none;
+}
+
 #sf_bistro_nav{
     height: 27rem;
 }
@@ -1633,6 +1638,11 @@ hr{
         display: inline-block;
     }
     
+    
+    #sf_bistro_right_div{
+        width:68rem;
+    }
+    
     #menu_div{
     margin-bottom: 6rem;
 }
@@ -1649,6 +1659,73 @@ hr{
     float: left;
     height:100%;
 }
+    
+}
+
+/* KAO start sf bistro page media query at 767px max width */
+
+@media only screen and (max-width:767px){
+    
+    #sf_bistro_right_div{
+        width:96%;
+    }
+    
+    #sf_bistro_nav{
+        height: 16rem;
+    }
+    
+    #sf_bistro_nav > ul > li:nth-child(1){
+    width:20%;
+}
+
+#sf_bistro_nav > ul > li:nth-child(2){
+    width:20%;
+}
+    
+    .sf_bistro_fontawesome{
+    font-size:3rem;
+    padding-top: 2rem
+}
+    
+    
+    #menu_topics_hidden{
+        display: inline-block;
+    }
+    
+    #menu_topics_hidden p{
+        margin:0;
+    }
+    
+    #menu_topics_hidden p:nth-child(1){
+        display: inline-block;
+        font-size:1.2rem;
+        width:20%;
+        float: left;
+    }
+    
+    #menu_topics_hidden p:nth-child(2){
+        display: inline-block;
+        font-size:1.2rem;
+        width:20%;
+        float: left;
+    }
+    
+    #menu_topics_hidden p:nth-child(3){
+        display: inline-block;
+        font-size:1.2rem;
+        width:20%;
+        float: left;
+    }
+     #menu_topics_hidden p:nth-child(4), #menu_topics_hidden p:nth-child(5) {
+        display: inline-block;
+        font-size:1.2rem;
+        width:calc(100%/5);
+        float: left;
+    }
+    
+    #all_label p:nth-child(2), #sandwiches_label p:nth-child(2), #sides_label p:nth-child(2), #dessert_label p:nth-child(2), #drinks_label p:nth-child(2){
+        display: none;
+    }
     
 }
 
