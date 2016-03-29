@@ -2697,7 +2697,7 @@ option{
     position:fixed;
     background-color:#ffffff;
     width:100%;
-    z-index: 1;
+    z-index: 4;
 }
 
 #dustybuns_icon{
