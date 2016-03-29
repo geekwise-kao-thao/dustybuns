@@ -488,6 +488,10 @@ header{
     color:grey;
 }
 
+.fontawesome_size:hover{
+    color:black;
+}
+
 /* short grey line in the social media section at the bottom of home page */
 
 hr{
@@ -695,6 +699,10 @@ hr{
         right: 102rem;
         color:white;
         
+    }
+    
+    #kao_label:hover{
+        cursor: pointer;
     }
     
     #kao_label > i{
@@ -1103,7 +1111,7 @@ hr{
     width:70rem;
     display: inline-block;
     position: relative;
-    top:16rem;
+    top:12rem;
 }
 
 #sf_bistro_label p:nth-child(1){
@@ -1623,12 +1631,13 @@ hr{
 /* start sf bistro page media query at 992px max width */
 
 @media only screen and (max-width:992px){
-    
+
     
     #sf_bistro_label{
-        width: 100%;
+        width: 98%;
         position:relative;
-        top:5rem;
+        top:13rem;
+        height: auto;
     }
     
     #sf_bistro_label p:nth-child(1){
@@ -1636,7 +1645,7 @@ hr{
 }
     
     #sf_bistro_main > div{
-    width:90%;
+        width:90%;
         margin: 0 auto;
 }
     
@@ -1676,6 +1685,7 @@ hr{
 /* start sf bistro page media query at 767px max width */
 
 @media only screen and (max-width:767px){
+
     
     #sf_bistro_right_div{
         width:96%;
@@ -1737,6 +1747,18 @@ hr{
     
 }
 
+/* start sf bistro page media query at 476px max width */
+
+@media only screen and (max-width:476px){
+
+      
+    #sf_bistro_label{
+        position:relative;
+        top:9rem;
+    }
+
+}
+    
 /* start sf bistro page media query at 362px max width */
 
 @media only screen and (max-width:362px){
@@ -1753,6 +1775,27 @@ hr{
     #sf_bistro_nav{
         height: 13rem;
     }
+    
+    
+}
+
+
+/* start sf bistro page media query at 327px max width */
+
+@media only screen and (max-width:327px){
+    
+    
+    #sf_bistro_label{
+        top:11rem;
+    }
+    
+    #sf_bistro_label p:nth-child(1){
+        font-size:4rem;
+}
+    
+    #sf_bistro_label p:nth-child(2){
+        font-size:1.5rem;
+}
     
     
 }
@@ -2650,8 +2693,7 @@ option{
     font-size:3.6rem;
     font-weight: 700;
     margin:2rem 0 0 3rem;
-    width:20rem;
-        
+    width:20rem;    
 }
 
 #contact_us_navbar{
@@ -2844,8 +2886,12 @@ option{
         float: left;
         display: inline-block;
         width: 10%;
-        top:0;
+        top:3rem;
         right: 1rem;
+    }
+    
+    #contact_us_label:hover{
+        cursor: pointer;
     }
     
     #contact_us_navbar{
@@ -2873,9 +2919,21 @@ option{
     
     
     #contact_us_title{
-    margin:10rem 0 0 0;
-    font-size: 5.2rem;
+        margin:10rem 0 0 0;
+        font-size: 5.2rem;
 }
+    
+    
+    #dustybuns_icon{
+        font-size:3rem;
+}
+    
+     #contact_us_label{
+        font-size:3rem;
+        position:absolute;
+        top:3rem;
+}
+    
     
 }
 
