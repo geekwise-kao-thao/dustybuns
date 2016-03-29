@@ -121,7 +121,7 @@ header{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     text-shadow:1px 1px 5px #000000;
@@ -136,7 +136,7 @@ header{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     text-shadow:1px 1px 5px #000000;
@@ -173,7 +173,7 @@ header{
     position:relative;
     top:1.5rem;
     left:-3rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -216,7 +216,7 @@ header{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     text-shadow:1px 1px 5px #000000;
@@ -252,7 +252,7 @@ header{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -310,7 +310,7 @@ header{
 
 #dustybuns_label p:nth-child(1){
     color:#ffffff;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -319,7 +319,7 @@ header{
 
 #dustybuns_label p:nth-child(2){
     color:#ffffff;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     text-transform: capitalize;
     font-size:4.1rem;
     padding:0;
@@ -327,7 +327,7 @@ header{
 }
 
 #welcome > p:nth-child(1){
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     font-size:7.2rem;
     color: #ffc300;
     padding: 0;
@@ -339,7 +339,7 @@ header{
 }
 
 #welcome > p:nth-child(3){
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.8rem;
     width: 70%;
     display: inline-block;
@@ -386,7 +386,7 @@ header{
     display:inline-block;
     height: 100%;
     background-color:#BCCF3D;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.6rem;
 }
 
@@ -430,7 +430,7 @@ header{
     width:calc(100%/2);
     display: inline-block;
     float:left;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.6rem;
 }
 
@@ -524,7 +524,7 @@ hr{
 }
 
 #footer_div1 p:nth-child(1){
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     font-size:3.6rem;
     color:#ffffff;
     padding: 0;
@@ -533,7 +533,7 @@ hr{
 }
 
 #footer_div1 p:nth-child(2){
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-size:1.6rem;
     color:#ffc300;
     font-weight: 600;
@@ -550,7 +550,7 @@ hr{
 }
 
 #footer_div2 > p{
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 2.6rem;
     font-weight: 600;
     color:#ffffff;
@@ -606,7 +606,7 @@ hr{
     display:inline-block;
     height: 100%;
     background-color:#BCCF3D;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.6rem;
 }
 
@@ -780,7 +780,7 @@ hr{
 }
 
 #footer_div2 > p{
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 2.5rem;
 }
     
@@ -815,7 +815,7 @@ hr{
     }
 
 #footer_div2 > p{
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 2.1rem;
 }
     
@@ -1108,7 +1108,7 @@ hr{
 
 #sf_bistro_label p:nth-child(1){
     color:#ffffff;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -1118,7 +1118,7 @@ hr{
 
 #sf_bistro_label p:nth-child(2){
     font-size: 1.8rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     color:#ffffff;
 }
 
@@ -1132,7 +1132,7 @@ hr{
     width:117rem;
     margin:0 auto;
     color: #525252;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
 }
 
 #sf_bistro_left_div{
@@ -1229,7 +1229,7 @@ hr{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.8rem;
     letter-spacing: 1px;
@@ -1272,7 +1272,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -1313,7 +1313,7 @@ hr{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.8rem;
     letter-spacing: 1px;
@@ -1340,7 +1340,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -1381,7 +1381,7 @@ hr{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.8rem;
     letter-spacing: 1px;
@@ -1408,7 +1408,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -1449,7 +1449,7 @@ hr{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.8rem;
     letter-spacing: 1px;
@@ -1476,7 +1476,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 2;
     position:relative;
     top:0rem;
@@ -1498,7 +1498,7 @@ hr{
     text-decoration: none;
     color:#ffffff;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.8rem;
     letter-spacing: 1px;
@@ -1525,7 +1525,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
     position:relative;
     top:0rem;
@@ -1576,7 +1576,7 @@ hr{
 .menu_image_div{
     width:90%;
     font-size: 1.4rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     color:#525252;
     display: inline-block;
 }
@@ -1804,7 +1804,7 @@ hr{
 
 #about_us_label p{
     color:#ffffff;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -1822,7 +1822,7 @@ hr{
     display: inline-block;
     text-align: left;
     font-size: 1.6rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     color:#525252;
     margin: 0 auto;
     padding:4rem 0 4rem 0;
@@ -1860,7 +1860,7 @@ hr{
     width: auto;
     height: 75rem;
     background-color:#BCCF3D;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     overflow: hidden;
 }
 
@@ -1872,7 +1872,7 @@ hr{
 
 #about_us_awards{
     font-size: 7.2rem;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     color: #ffffff;
     width:100%;
     margin: 5rem 0 2rem 0;
@@ -2092,7 +2092,7 @@ hr{
     background-repeat: no-repeat;
     height: 100rem;
     width: 100%;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.8rem;
     font-weight: 300;
     color: #ffffff;
@@ -2109,7 +2109,7 @@ hr{
 
 #catering_label p:nth-child(1){
     color:#FFC300;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -2119,7 +2119,7 @@ hr{
 
 #catering_label p:nth-child(2){
     color:#ffffff;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size:1.6rem;
     padding:0;
     margin:0;
@@ -2401,7 +2401,7 @@ hr{
     display: block;
     height: 100rem;
     width: 100%;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size: 1.8rem;
     font-weight: 300;
     color: black;
@@ -2424,7 +2424,7 @@ hr{
 
 #fresno_lunchbox_label p:nth-child(1){
     color:black;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -2563,7 +2563,7 @@ hr{
 #dustybuns_icon{
     display: inline-block;
     float: left;
-    font-family:"pacifico";
+    font-family:'Pacifico', cursive;
     font-size:3.6rem;
     font-weight: 700;
     margin:2rem 0 0 3rem;
@@ -2659,7 +2659,7 @@ hr{
     text-decoration: none;
     color:#000000;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     letter-spacing: 1px;
@@ -2684,7 +2684,7 @@ hr{
     width:auto;
     margin:11rem 0 0 0;
     font-size: 7.2rem;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     color: #FFC300;
     padding: 0;
 }
@@ -2818,7 +2818,7 @@ hr{
 
 #careers_label p:nth-child(1){
     color:#BCCF3D;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -2828,7 +2828,7 @@ hr{
 
 #careers_label p:nth-child(2){
     color:#ffffff;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size:1.6rem;
     padding:0;
     margin:0;
@@ -2844,7 +2844,7 @@ hr{
     display: inline-block;
     text-align: left;
     font-size: 1.8rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     color:#525252;
     margin: 2rem 0 9rem 0;
 }
@@ -2888,7 +2888,7 @@ hr{
     color:#BCCF3D;
     font-size: 4.8rem;
     font-weight: 500;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     margin:0;
 }
 
@@ -2903,7 +2903,7 @@ hr{
     text-decoration: none;
     color:black;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     letter-spacing: 1px;
@@ -2941,7 +2941,7 @@ hr{
     position:relative;
     top:1.5rem;
     left:-3rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -2984,7 +2984,7 @@ hr{
     text-decoration: none;
     color:black;
     text-transform: capitalize;
-    font-family:"muli";
+    font-family:'Muli', sans-serif;
     font-weight: 700;
     font-size:1.6rem;
     letter-spacing: 1px;
@@ -3010,7 +3010,7 @@ hr{
     display: none;
     position:relative;
     top:1.5rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     z-index: 1;
 }
 
@@ -3114,7 +3114,7 @@ hr{
 
 #cook_label p:nth-child(1){
     color:#BCCF3D;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     text-transform: capitalize;
     font-size:7.2rem;
     padding:0;
@@ -3124,7 +3124,7 @@ hr{
 
 #cook_label p:nth-child(2){
     color:#ffffff;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     font-size:1.6rem;
     padding:0;
     margin:0;
@@ -3141,7 +3141,7 @@ hr{
     display: inline-block;
     text-align: left;
     font-size: 1.8rem;
-    font-family: "muli";
+    font-family: 'Muli', sans-serif;
     color:#525252;
     margin: 6rem 0 9rem 0;
 }
@@ -3195,7 +3195,7 @@ hr{
     color:#BCCF3D;
     font-size: 4.8rem;
     font-weight: 500;
-    font-family: "pacifico";
+    font-family: 'Pacifico', cursive;
     margin:0;
 }
 
