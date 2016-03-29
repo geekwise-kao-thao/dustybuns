@@ -156,18 +156,128 @@
                    
                 <!-- next inputs row -->
                   <div>
-                   <form action="#" class="catering_form2">
+                   <form action="#" class="catering_form2" id="catering_mth_day_yr">
                     <span>
                         Date:
                     </span>
-                    <input type="text" name="phone" placeholder="mm/dd/yyyy" class="catering_input2 input_design1">
-                   </form>
-    
-                    <form action="#" class="catering_form2 right_input">
                     <span>
-                        Attendance:
+                        <select name="date" class="catering_location catering_date">
+                        <option value>mth</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
                     </span>
-                    <input type="text" name="phone" placeholder="Choose One" class="catering_input2 input_design1">
+                    
+                    <span>
+                        <select name="date" class="catering_location catering_date">
+                        <option value>day</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    </span>
+                    
+                    <span>
+                        <select name="date" class="catering_location catering_date">
+                        <option value>yr</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                    </span>
+                   </form>                   
+    
+                    <form action="#" class="catering_form2 catering_event">
+                    <span>
+                        Attendance
+                    </span>
+                    <span>
+                        <select name="location" class="catering_location">
+                        <option value>
+                                Choose One
+                        </option>
+                        <option value="10 persons">
+                            10 persons
+                        </option>
+                        <option value="20 persons">
+                            20 persons
+                        </option>
+                        <option value="30 persons">
+                            30 persons
+                        </option>
+                        <option value="40 persons">
+                            40 persons
+                        </option>
+                        <option value="50 persons">
+                            50 persons
+                        </option>
+                        <option value="60 persons">
+                            60 persons
+                        </option>
+                        <option value="70 persons">
+                            70 persons
+                        </option>
+                        <option value="80 persons">
+                            80 persons
+                        </option>
+                        <option value="90 persons">
+                            90 persons
+                        </option>
+                        <option value="100-149">
+                            100-149
+                        </option>
+                        <option value="150-199">
+                            150-199
+                        </option>
+                        <option value="200-249">
+                            200-249
+                        </option>
+                        <option value="250-299">
+                            250-299
+                        </option>
+                        <option value="300+">
+                            300+
+                        </option>
+                    </select>
+                    </span>
                    </form>
                    
                    <!-- next inputs row -->
@@ -176,21 +286,147 @@
                     <span>
                         Location:
                     </span>
-                    <input type="text" name="phone" placeholder="Choose One" class="catering_input2 input_design1">
+                    <span>
+                        <select name="location" class="catering_location">
+                        <option value>
+                            Choose One
+                        </option>
+                        <option value="Fresno">
+                            Fresno
+                        </option>
+                        <option value="SF / Bay Area">
+                            SF / Bay Area
+                        </option>
+                    </select>
+                    </span>
                    </form>
     
-                    <form action="#" class="catering_form2 right_input">
+                    <form action="#" class="catering_form2 catering_event">
                     <span>
-                        Event:
+                        Event
                     </span>
-                    <input type="text" name="phone" placeholder="Choose One" class="catering_input2 input_design1">
+                    <span>
+                        <select name="location" class="catering_location">
+                        <option value>
+                                Choose One
+                        </option>
+                        <option value="Wedding">
+                            Wedding
+                        </option>
+                        <option value="Special Event">
+                            Special Event
+                        </option>
+                        <option value="Company Event">
+                            Company Event
+                        </option>
+                        <option value="Anniversary">
+                            Anniversary
+                        </option>
+                        <option value="Other">
+                            Other
+                        </option>
+                    </select>
+                    </span>
                    </form>
                    
                    <form action="#" class="catering_form2">
                     <span>
                         Start of Service:
                     </span>
-                    <input type="text" name="phone" placeholder="Choose One" class="catering_input2 input_design1">
+                    <span>
+                        <select name="location" class="catering_location">
+                        <option value>
+                            Choose One
+                        </option>
+                        <option value="8:00AM">
+                            8:00AM
+                        </option>
+                        <option value="8:30AM">
+                            8:30AM
+                        </option>
+                        <option value="9:00AM">
+                            9:00AM
+                        </option>
+                        <option value="9:30AM">
+                            9:30AM
+                        </option>
+                        <option value="10:00AM">
+                            10:00AM
+                        </option>
+                        <option value="10:30AM">
+                            10:30AM
+                        </option>
+                        <option value="11:00AM">
+                            11:00AM
+                        </option>
+                        <option value="12:30PM">
+                            12:30PM
+                        </option>
+                        <option value="1:00PM">
+                            1:00PM
+                        </option>
+                        <option value="1:30PM">
+                            1:30PM
+                        </option>
+                        <option value="2:00PM">
+                            2:00PM
+                        </option>
+                        <option value="3:30PM">
+                            3:30PM
+                        </option>
+                        <option value="4:00PM">
+                            4:00PM
+                        </option>
+                        <option value="4:30PM">
+                            4:30PM
+                        </option>
+                        <option value="5:00PM">
+                            5:00PM
+                        </option>
+                        <option value="5:30PM">
+                            5:30PM
+                        </option>
+                        <option value="6:00PM">
+                            6:00PM
+                        </option>
+                        <option value="6:30PM">
+                            6:30PM
+                        </option>
+                        <option value="7:00PM">
+                            7:00PM
+                        </option>
+                        <option value="7:30PM">
+                            7:30PM
+                        </option>
+                        <option value="8:00PM">
+                            8:00PM
+                        </option>
+                        <option value="8:30PM">
+                            8:30PM
+                        </option>
+                        <option value="9:00PM">
+                            9:00PM
+                        </option>
+                        <option value="9:30PM">
+                            9:30PM
+                        </option>
+                        <option value="10:00PM">
+                            10:00PM
+                        </option>
+                        <option value="10:30PM">
+                            10:30PM
+                        </option>
+                        <option value="11:00PM">
+                            11:00PM
+                        </option>
+                        <option value="11:30PM">
+                            11:30PM
+                        </option>
+                        <option value="12:00AM">
+                            12:00AM
+                        </option>
+                    </select>
+                    </span>
                    </form>
                    
                    <form action="#" class="catering_form2 right_input">
@@ -199,11 +435,39 @@
                     </span>
                    </form>
                    
-                   <form action="#" class="catering_form3">
+                   <form action="#" class="catering_form2" id="catering_service_time">
                     <span>
                         Service Time: (Usually 2-4 hours)
                     </span>
-                    <input type="text" name="phone" placeholder="Choose One" class=" input_design1">
+                    <span>
+                        <select name="location" class="catering_location">
+                        <option value>
+                            Choose One
+                        </option>
+                        <option value="1 hour">
+                            1 hour
+                        </option>
+                        <option value="2 hours">
+                            2 hours
+                        </option>
+                        <option value="3 hours">
+                            3 hours
+                        </option>
+                        <option value="4 hours">
+                            4 hours
+                        </option>
+                        <option value="5 hours">
+                            5 hours
+                        </option>
+                        <option value="6+ hours">
+                            6+ hours
+                        </option>
+                    </select>
+                    </span>
+                   </form>
+                   
+                   <form action="#" class="catering_form3">
+                    
                     <input type="text" name="phone" placeholder="Email" class=" input_design1">
                     <input type="text" name="phone" placeholder="Message" class=" input_design1" id="input_message">
                     
