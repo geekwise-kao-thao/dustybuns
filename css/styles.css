@@ -2282,6 +2282,10 @@ hr{
     margin-top:2rem;
 }
 
+#catering_button:hover{
+    background-color:black;
+}
+
 
 /* start catering page media query at 1100px max width */
 
@@ -2500,6 +2504,10 @@ hr{
     font-weight: 600;
     font-size: 1.3rem;
     margin-top:2rem;
+}
+
+#fresno_lunchbox_button:hover{
+    background-color:black;
 }
 
 .first_asterisk{
