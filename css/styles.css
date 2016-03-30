@@ -490,6 +490,7 @@ header{
 
 .fontawesome_size:hover{
     color:black;
+    text-decoration: none;
 }
 
 /* short grey line in the social media section at the bottom of home page */
