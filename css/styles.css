@@ -2347,16 +2347,24 @@ hr{
 #catering_button{
     background-color: #ffc300;
     border-radius: 4px;
-    width:10.4rem;
+    width:12rem;
     color:#ffffff;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-top:2rem;
+    height:5.5rem
 }
 
 #catering_button:hover{
     background-color:black;
 }
+
+#catering_button span{
+    text-align: center;
+    padding-top:1.2rem;
+}
+
+
 
 /* using select and option tags to make input fields */
 
@@ -2662,14 +2670,20 @@ option{
     height: 5rem;
     color:#ffffff;
     border-radius: 4px;
-    width:10.4rem;
+    width:9.5rem;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-top:2rem;
+    text-align: center;
 }
 
 #fresno_lunchbox_button:hover{
     background-color:black;
+}
+
+#fresno_lunchbox_button span{
+    position:relative;
+    top:1.5rem;
 }
 
 .first_asterisk{
@@ -2730,6 +2744,11 @@ option{
     font-weight: 700;
     margin:2rem 0 0 3rem;
     width:20rem;    
+}
+
+#dustybuns_icon:hover{
+    color:#BCCF3D;
+    transition:.5s;
 }
 
 #contact_us_navbar{
