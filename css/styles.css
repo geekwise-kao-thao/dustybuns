@@ -690,17 +690,16 @@ hr{
     
     
     #kao_label{
-        font-size:4rem;
+        font-size:.7rem;
         position:absolute;
         z-index: 1;
         color: black;
         float: left;
         display: inline-block;
-        width: 10%;
-        top:0;
-        right: 102rem;
+        width: 8%;
+        top:4rem;
+        right: 1rem;
         color:white;
-        
     }
     
     #kao_label:hover{
@@ -719,6 +718,23 @@ hr{
     
     #kao_input:checked + #index_header{
         display: block;
+    }
+    
+    #index_menu_bar{
+        display: block;
+        margin:0 auto;
+        height: 10rem;
+        width:3.5rem;
+        margin-top:1rem;
+    }
+    
+    .index_bar_line{
+        border-bottom: 1px solid #ffffff;
+        width:85%;
+        display: inline-block;
+        z-index: 15;
+        margin:0;
+        font-weight: 800;
     }
     
     
@@ -892,6 +908,10 @@ hr{
 
 @media only screen and (max-width:767px){
     
+    
+#kao_label{
+        right: 3rem;
+    }
     
 #dustybuns_label{
     width:90%;
