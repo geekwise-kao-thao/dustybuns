@@ -696,10 +696,11 @@ hr{
         color: black;
         float: left;
         display: inline-block;
-        width: 8%;
+        width: 15%;
         top:4rem;
         right: 1rem;
         color:white;
+        height: 5rem
     }
     
     #kao_label:hover{
@@ -723,7 +724,7 @@ hr{
     #index_menu_bar{
         display: block;
         margin:0 auto;
-        height: 10rem;
+        height: 3rem;
         width:3.5rem;
         margin-top:1rem;
     }
@@ -2923,6 +2924,7 @@ option{
         width: 10%;
         top:3rem;
         right: 1rem;
+        height:4rem;
     }
     
     #contact_us_label:hover{
@@ -2942,7 +2944,7 @@ option{
     #menu_bar{
         display: block;
         margin:0 auto;
-        height: 10rem;
+        height: 2.5rem;
         width:3.5rem;
         margin-top:1rem;
     }
