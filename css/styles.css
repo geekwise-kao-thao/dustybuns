@@ -2894,7 +2894,7 @@ option{
   /* hamburger bars */  
     
     #contact_us_label{
-        font-size:4rem;
+        font-size:.6rem;
         position:absolute;
         z-index: 1;
         color: black;
@@ -2915,6 +2915,25 @@ option{
     
     #contact_us_input:checked + #contact_us_navbar{
         display: block;
+    }
+    
+    /* creating menu bars */
+    
+    #menu_bar{
+        display: block;
+        margin:0 auto;
+        height: 10rem;
+        width:3.5rem;
+        margin-top:1rem;
+    }
+    
+    .bar_line{
+        border-bottom: 1px solid #525252;
+        width:85%;
+        display: inline-block;
+        z-index: 15;
+        margin:0;
+        font-weight: 700;
     }
     
     /* adjusting map size */
@@ -2944,7 +2963,6 @@ option{
 }
     
      #contact_us_label{
-        font-size:3rem;
         position:absolute;
         top:3rem;
 }
