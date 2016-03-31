@@ -1,3 +1,49 @@
+/*
+Website Name: Dustybuns | Portfolio!
+Description: Used to style HTML
+*/
+
+
+/** !!!!!!!!!!....TRIAL....!!!!!!!!!!!!!
+
+ * Table of Contents:
+ 
+ * 0.1 - Global
+ * 1.0 - Index (Home Page)
+ * 2.0 - Menu/Locations
+    2.1 - SF Bistro (Subpage)
+    2.2 - Fresno Bistro (Subpage)
+    2.3 - Fresno Bus (Subpage)
+ * 3.0 - About Us
+ * 4.0 - Catering
+    4.1 - Catering (Subpage)
+    4.2 - Fresno Lunch Box (Subpage)
+    4.3 - SF Lunch Box (Subpage)
+ * 5.0 - Contact Us
+ * 6.0 - Careers
+    6.1 - Cook
+    6.2 - Cashier
+ * 7.0 - Media Queries
+    7.1 - Index (Home Page)
+    7.2 - SF Bistro (Subpage)
+    7.3 - Fresno Bistro (Subpage)
+    7.4 - Fresno Bus (Subpage)
+    7.5 - About Us
+    7.6 - Catering (Subpage)
+    7.7 - Fresno Lunch Box (Subpage)
+    7.8 - SF Lunch Box (Subpage)
+    7.9 - Contact Us
+    7.10 - Careers
+    7.11 - Cook
+    7.12 - Cashier
+
+ */
+
+
+/**
+* 0.1 Global
+*/
+
 html, body{
     margin:0;
     padding:0;
@@ -20,15 +66,17 @@ body{
     display: block;
 }
 
+header{
+    height: auto;
+}
+
+
+
 #index_input_navbar{
         display: none;
     }
 #index_hamburger{
     display: none;
-}
-
-header{
-    height: auto;
 }
 
 #navbar{
@@ -562,10 +610,10 @@ hr{
     color:#ffffff;
 }
 
-#kao_label{
+#home_page_label{
     display: none;
 }
-#kao_input{
+#home_page_input{
     display: none;
 }
 
@@ -689,7 +737,7 @@ hr{
     
     
     
-    #kao_label{
+    #home_page_label{
         font-size:.7rem;
         position:absolute;
         z-index: 1;
@@ -703,21 +751,21 @@ hr{
         height: 5rem
     }
     
-    #kao_label:hover{
+    #home_page_label:hover{
         cursor: pointer;
     }
     
-    #kao_label > i{
+    #home_page_label > i{
         position:relative;
         top:0;
         left:100rem
     }
     
-    #kao_input{
+    #home_page_input{
         display: none;
     }
     
-    #kao_input:checked + #index_header{
+    #home_page_input:checked + #index_header{
         display: block;
     }
     
@@ -910,7 +958,7 @@ hr{
 @media only screen and (max-width:767px){
     
     
-#kao_label{
+#home_page_label{
         right: 3rem;
     }
     
