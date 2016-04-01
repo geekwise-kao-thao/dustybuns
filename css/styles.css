@@ -1334,6 +1334,7 @@ hr{
 #all_label:hover{
     background-color:#ffffff;
     color:black;
+    cursor: pointer;
 }
 
 #all_label > span{
@@ -1382,7 +1383,7 @@ hr{
 }
 
 #all_input:checked + #all_dropdown{
-    display: block;
+    display: none;
     
 }
 
@@ -1407,6 +1408,7 @@ hr{
 #sandwiches_label:hover{
     background-color:#ffffff;
     color:black;
+    cursor: pointer;
 }
 
 #sandwiches_dropdown{
@@ -1450,7 +1452,7 @@ hr{
 }
 
 #sandwiches_input:checked + #sandwiches_dropdown{
-    display: block;
+    display: none;
     
 }
 
@@ -1475,6 +1477,7 @@ hr{
 #sides_label:hover{
     background-color:#ffffff;
     color:black;
+    cursor: pointer;
 }
 
 #sides_dropdown{
@@ -1518,7 +1521,7 @@ hr{
 }
 
 #sides_input:checked + #sides_dropdown{
-    display: block;
+    display: none;
     
 }
 
@@ -1543,6 +1546,7 @@ hr{
 #dessert_label:hover{
     background-color:#ffffff;
     color:black;
+    cursor: pointer;
 }
 
 #dessert_dropdown{
@@ -1568,7 +1572,7 @@ hr{
 }
 
 #dessert_input:checked + #dessert_dropdown{
-    display: block;
+    display: none;
     
 }
 
@@ -1592,6 +1596,7 @@ hr{
 #drinks_label:hover{
     background-color:#ffffff;
     color:black;
+    cursor: pointer;
 }
 
 #drinks_dropdown{
@@ -1630,7 +1635,7 @@ hr{
 }
 
 #drinks_input:checked + #drinks_dropdown{
-    display: block;
+    display: none;
     
 }
 
