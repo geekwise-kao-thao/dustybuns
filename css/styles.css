@@ -1763,6 +1763,10 @@ hr{
         width:96%;
     }
     
+    #sf_bistro_left_div{
+        font-size:2rem;
+    }
+    
     #sf_bistro_nav{
         height: 16rem;
     }
@@ -1893,6 +1897,19 @@ hr{
 
 
 /* end fresno bistro page */
+
+/* start fresno bus page */
+
+#fresno_bus_image_section > div:nth-child(2){
+    display: block;
+    background-image:url(http://i.imgur.com/BhNlH2t.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 68vh;
+    width: 100%;
+}
+
+/* end fresno bus page */
 
 /* start about_us page */
 
