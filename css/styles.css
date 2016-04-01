@@ -3,8 +3,9 @@ Website Name: Dustybuns | Portfolio!
 Description: Used to style HTML
 */
 
-
-/** !!!!!!!!!!....TRIAL 1....!!!!!!!!!!!!!
+#maptext{
+    visibility: hidden;
+}
 
  /**
  * Table of Contents:
@@ -20,7 +21,6 @@ Description: Used to style HTML
  */
 
 
-*/
 
 html, body{
     margin:0;
