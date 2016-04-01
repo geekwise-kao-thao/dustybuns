@@ -6,42 +6,20 @@ Description: Used to style HTML
 
 /** !!!!!!!!!!....TRIAL 1....!!!!!!!!!!!!!
 
+ /**
  * Table of Contents:
- 
- * 0.1 - Global
- * 1.0 - Index (Home Page)
- * 2.0 - Menu/Locations
-    2.1 - SF Bistro (Subpage)
-    2.2 - Fresno Bistro (Subpage)
-    2.3 - Fresno Bus (Subpage)
- * 3.0 - About Us
- * 4.0 - Catering
-    4.1 - Catering (Subpage)
-    4.2 - Fresno Lunch Box (Subpage)
-    4.3 - SF Lunch Box (Subpage)
- * 5.0 - Contact Us
- * 6.0 - Careers
-    6.1 - Cook
-    6.2 - Cashier
- * 7.0 - Media Queries
-    7.1 - Index (Home Page)
-    7.2 - SF Bistro (Subpage)
-    7.3 - Fresno Bistro (Subpage)
-    7.4 - Fresno Bus (Subpage)
-    7.5 - About Us
-    7.6 - Catering (Subpage)
-    7.7 - Fresno Lunch Box (Subpage)
-    7.8 - SF Lunch Box (Subpage)
-    7.9 - Contact Us
-    7.10 - Careers
-    7.11 - Cook
-    7.12 - Cashier
-
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Caption
+ * 6.0 - Galleries
+ * 7.0 - Audio / Video
+ * 8.0 - RTL
  */
 
 
-/**
-* 0.1 Global
 */
 
 html, body{
