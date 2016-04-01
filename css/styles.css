@@ -935,6 +935,9 @@ hr{
 
 @media only screen and (max-width:767px){
     
+    body{
+        font-size: 0rem;
+    }
     
 #home_page_label{
         right: 3rem;
@@ -1012,6 +1015,7 @@ hr{
 
 #index_topright_div > div{
     height:auto;
+    font-size:0rem;
 }
 
 #index_topright_div > div > p{
@@ -1117,7 +1121,7 @@ hr{
 
 
     #index_topright_div > div{
-    height:20rem;
+    height:auto;
 }
     
     #index_topright_div > div > img{
@@ -1129,6 +1133,9 @@ hr{
     line-height:1.7rem;
     font-size: .9rem;
 }
+    .line{
+        top:1px;
+    }
 
 .sando_font{
     font-size: 2.6rem;
@@ -1137,11 +1144,20 @@ hr{
 #plus{
     padding:0;
 }
+ 
+}
 
+
+/*  index page media query at 304px */
+
+@media only screen and (max-width:304px){
+    
+    #index_topright_div > div > p{
+    line-height:1.4rem;
+}
     
     
 }
-
 
 /* index page media query max-width at 910px, background image doesn't shrink but is fixed and center of image stays centered  */
 
