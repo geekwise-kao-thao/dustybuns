@@ -1246,6 +1246,11 @@ hr{
     opacity:.8;
 }
 
+.bistro_hover:hover{
+    color:black;
+    transition:.3s;
+}
+
 #sf_bistro_right_div{
     width:75%;
     display: inline-block;
